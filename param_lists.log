@@ -1,0 +1,119 @@
+1: 0 1
+2: 1 1
+3: 1 2
+4: 0 2
+5: 1 4
+6: 0 2
+7: 1 6
+8: 0 4
+9: 0 6
+10: 0 4
+11: 1 10
+12: 0 4
+13: 1 12
+14: 0 6
+Currently investigating prime: 2
+Found good packing parameter: m = 55831, pack = 2160
+Found good packing parameter: m = 60787, pack = 2728
+Found good packing parameter: m = 65535, pack = 2048
+Found good packing parameter: m = 69905, pack = 2400
+Found good packing parameter: m = 87381, pack = 2592
+Found good packing parameter: m = 95325, pack = 2400
+Currently investigating prime: 3
+Found good packing parameter: m = 50171, pack = 3040
+Found good packing parameter: m = 59048, pack = 2640
+Found good packing parameter: m = 59293, pack = 3648
+Found good packing parameter: m = 63973, pack = 2592
+Found good packing parameter: m = 68887, pack = 3024
+Found good packing parameter: m = 75920, pack = 2304
+Currently investigating prime: 5
+Found good packing parameter: m = 19531, pack = 2790
+Found good packing parameter: m = 25699, pack = 2760
+Found good packing parameter: m = 36991, pack = 3640
+Found good packing parameter: m = 39062, pack = 2790
+Found good packing parameter: m = 41603, pack = 2773
+Found good packing parameter: m = 45848, pack = 2080
+Currently investigating prime: 7
+Found good packing parameter: m = 20197, pack = 2124
+Found good packing parameter: m = 28701, pack = 2124
+Found good packing parameter: m = 30025, pack = 3000
+Found good packing parameter: m = 30811, pack = 2800
+Found good packing parameter: m = 38432, pack = 2400
+Found good packing parameter: m = 39331, pack = 4248
+Currently investigating prime: 11
+Found good packing parameter: m = 16105, pack = 2576
+Found good packing parameter: m = 24605, pack = 2592
+Found good packing parameter: m = 28049, pack = 2403
+Found good packing parameter: m = 31635, pack = 2592
+Found good packing parameter: m = 32210, pack = 2576
+Found good packing parameter: m = 36063, pack = 2403
+Currently investigating prime: 13
+Found good packing parameter: m = 28731, pack = 3120
+Found good packing parameter: m = 30941, pack = 6188
+Found good packing parameter: m = 33073, pack = 2204
+Found good packing parameter: m = 38308, pack = 3120
+Found good packing parameter: m = 42843, pack = 3570
+Found good packing parameter: m = 47368, pack = 2280
+Currently investigating prime: 17
+Found good packing parameter: m = 27937, pack = 3672
+Found good packing parameter: m = 31928, pack = 2448
+Found good packing parameter: m = 34384, pack = 2448
+Found good packing parameter: m = 35659, pack = 2184
+Found good packing parameter: m = 35919, pack = 3672
+Found good packing parameter: m = 41760, pack = 2688
+Currently investigating prime: 19
+Found good packing parameter: m = 24003, pack = 2268
+Found good packing parameter: m = 26064, pack = 2160
+Found good packing parameter: m = 29209, pack = 2246
+Found good packing parameter: m = 31115, pack = 3528
+Found good packing parameter: m = 32580, pack = 2160
+Found good packing parameter: m = 40005, pack = 3024
+Currently investigating prime: 23
+Found good packing parameter: m = 18656, pack = 2080
+Found good packing parameter: m = 22637, pack = 2515
+Found good packing parameter: m = 23320, pack = 2080
+Found good packing parameter: m = 27984, pack = 2080
+Found good packing parameter: m = 29744, pack = 2080
+Found good packing parameter: m = 33891, pack = 3120
+Currently investigating prime: 29
+Found good packing parameter: m = 14735, pack = 2520
+Found good packing parameter: m = 17615, pack = 2160
+Found good packing parameter: m = 18157, pack = 2970
+Found good packing parameter: m = 23059, pack = 3294
+Found good packing parameter: m = 23576, pack = 2520
+Found good packing parameter: m = 24388, pack = 3168
+Currently investigating prime: 31
+Found good packing parameter: m = 14895, pack = 2640
+Found good packing parameter: m = 16219, pack = 2310
+Found good packing parameter: m = 17351, pack = 3470
+Found good packing parameter: m = 21391, pack = 3055
+Found good packing parameter: m = 23680, pack = 2304
+Found good packing parameter: m = 29790, pack = 2640
+Currently investigating prime: 37
+Found good packing parameter: m = 12663, pack = 2376
+Found good packing parameter: m = 13015, pack = 2448
+Found good packing parameter: m = 20824, pack = 2448
+Found good packing parameter: m = 23427, pack = 3672
+Found good packing parameter: m = 25326, pack = 2376
+Found good packing parameter: m = 26030, pack = 2448
+Currently investigating prime: 41
+Found good packing parameter: m = 8615, pack = 2296
+Found good packing parameter: m = 13784, pack = 2296
+Found good packing parameter: m = 17230, pack = 2296
+Found good packing parameter: m = 17661, pack = 2436
+Found good packing parameter: m = 23215, pack = 2652
+Found good packing parameter: m = 23548, pack = 2436
+Currently investigating prime: 43
+Found good packing parameter: m = 13251, pack = 2520
+Found good packing parameter: m = 14245, pack = 2160
+Found good packing parameter: m = 19425, pack = 2160
+Found good packing parameter: m = 22792, pack = 2160
+Found good packing parameter: m = 23921, pack = 3774
+Found good packing parameter: m = 25900, pack = 2160
+Currently investigating prime: 47
+Found good packing parameter: m = 14621, pack = 2924
+Found good packing parameter: m = 15249, pack = 2112
+Found good packing parameter: m = 19136, pack = 2112
+Found good packing parameter: m = 20332, pack = 2112
+Found good packing parameter: m = 23920, pack = 2112
+Found good packing parameter: m = 25024, pack = 2816
