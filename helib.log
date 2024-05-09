@@ -124,3 +124,28 @@
 [ 03:15:25 ] WARNING: KS-noise-ratio=1.414701
 [ 03:15:30 ] WARNING: KS-noise-ratio=1.569342
 [ 03:15:35 ] WARNING: KS-noise-ratio=1.636491
+[ 02:19:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:19:46 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:19:46 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:22:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:22:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:22:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:24:09 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:24:09 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:24:09 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:00:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:07:48 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:13:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:32 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:17:34 ] WARNING: KS-noise-ratio=5.183038
+[ 04:20:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:20:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:21:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:21:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:22:00 ] WARNING: KS-noise-ratio=8.103305
+[ 04:23:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:23:05 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:23:05 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:23:10 ] WARNING: KS-noise-ratio=2.960187
+[ 04:23:11 ] WARNING: KS-noise-ratio=1.777912

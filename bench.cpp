@@ -34,6 +34,48 @@ cout << "Time taken: " << dur.count() / 1000 << "ms" << "\n";
 
 using namespace std;
 
+long power(long x, long i, long p){
+  if (i == 0) return 1;
+  int y = power(x, i/2, p);
+  return (y * y * ((i & 1) ? x : 1)) % p;
+}
+
+int invert(int x, int p){
+  return power(x, p-2, p);
+}
+
+vector<long> interpolate(long d, long p){
+  /* 
+  Generating the evaluate polynomial
+  */
+
+  vector<long> ans;
+  ans.push_back(1);
+
+  for (int i = 0; i < d; i++){
+    vector<long> tmp = ans;
+    for (long j = 0; j < ans.size(); j++){
+      ans[j] = p - (ans[j] * i) % p;
+      if (ans[j] == p) ans[j] = 0;
+    }
+    ans.push_back(0);
+    for (long j = 0; j < tmp.size(); j++){
+      (ans[j+1] += tmp[j]) %= p;
+    }
+  }
+
+  int denom = 1;
+  for (long i = 1; i <= d; i++) (denom *= i) %= p;
+  denom = invert(denom, p);
+
+  cout << "Before invert\n";
+  for (long x: ans) cout << x << " ";
+  cout << "\n";
+
+  for (long i = 0; i < ans.size(); i++) (ans[i] *= denom) %= p;
+  return ans;
+}
+
 int main(int argc, char* argv[])
 {
     /*
@@ -110,51 +152,118 @@ int main(int argc, char* argv[])
   // Set it with numbers 0..nslots - 1
   // ptxt = [0] [1] [2] ... [nslots-2] [nslots-1]
   for (int i = 0; i < ptxt.size(); ++i) {
-    ptxt[i] = i;
+    ptxt[i] = (i % 19);
   }
 
   // Print the plaintext
   std::cout << "Initial Plaintext: " << ptxt << std::endl;
 
-    for (int i = 1; i < 10; i++){
-        // Create a ciphertext object
-        helib::Ctxt ctxt(public_key);
-        // Encrypt the plaintext using the public_key
-        public_key.Encrypt(ctxt, ptxt);
 
-        /********** Operations **********/
-        // Ciphertext and plaintext operations are performed
-        // "entry-wise".
+  /*
+  Test level
+  */
+  // for (int i = 1; i < 10; i++){
+  //     // Create a ciphertext object
+  //     helib::Ctxt ctxt(public_key);
+  //     // Encrypt the plaintext using the public_key
+  //     public_key.Encrypt(ctxt, ptxt);
 
-        // Create a plaintext for decryption
-        helib::Ptxt<helib::BGV> plaintext_result(context);
+  //     /********** Operations **********/
+  //     // Ciphertext and plaintext operations are performed
+  //     // "entry-wise".
 
-        // Square the ciphertext
-        // [0] [1] [2] [3] [4] ... [nslots-1]
-        // -> [0] [1] [4] [9] [16] ... [(nslots-1)*(nslots-1)]
+  //     // Create a plaintext for decryption
+  //     helib::Ptxt<helib::BGV> plaintext_result(context);
 
-        cout << "First square: " << "\n";
-        TIME(ctxt.multiplyBy(ctxt));
-        // Decrypt the modified ciphertext
-        secret_key.Decrypt(plaintext_result, ctxt);
-        cout << "Second square: " << "\n";
-        TIME(ctxt.multiplyBy(ctxt));
-        // Decrypt the modified ciphertext
-        secret_key.Decrypt(plaintext_result, ctxt);
-        cout << "Third square: " << "\n";
-        TIME(ctxt.multiplyBy(ctxt));
-        // Decrypt the modified ciphertext
-        secret_key.Decrypt(plaintext_result, ctxt);
-        cout << "Fourth square: " << "\n";
-        TIME(ctxt.multiplyBy(ctxt));
-        // Decrypt the modified ciphertext
-        secret_key.Decrypt(plaintext_result, ctxt);
-        cout << "Fifth square: " << "\n";
-        TIME(ctxt.multiplyBy(ctxt));
-        // Decrypt the modified ciphertext
-        secret_key.Decrypt(plaintext_result, ctxt);
+  //     // Square the ciphertext
+  //     // [0] [1] [2] [3] [4] ... [nslots-1]
+  //     // -> [0] [1] [4] [9] [16] ... [(nslots-1)*(nslots-1)]
 
-        cout << "Can we decrypt?" << ctxt.isCorrect() << "\n";
-    }
+  //     cout << "First square: " << "\n";
+  //     TIME(ctxt.multiplyBy(ctxt));
+  //     // Decrypt the modified ciphertext
+  //     secret_key.Decrypt(plaintext_result, ctxt);
+  //     cout << "Second square: " << "\n";
+  //     TIME(ctxt.multiplyBy(ctxt));
+  //     // Decrypt the modified ciphertext
+  //     secret_key.Decrypt(plaintext_result, ctxt);
+  //     cout << "Third square: " << "\n";
+  //     TIME(ctxt.multiplyBy(ctxt));
+  //     // Decrypt the modified ciphertext
+  //     secret_key.Decrypt(plaintext_result, ctxt);
+  //     cout << "Fourth square: " << "\n";
+  //     TIME(ctxt.multiplyBy(ctxt));
+  //     // Decrypt the modified ciphertext
+  //     secret_key.Decrypt(plaintext_result, ctxt);
+  //     cout << "Fifth square: " << "\n";
+  //     TIME(ctxt.multiplyBy(ctxt));
+  //     // Decrypt the modified ciphertext
+  //     secret_key.Decrypt(plaintext_result, ctxt);
+
+  //     cout << "Can we decrypt?" << ctxt.isCorrect() << "\n";
+  // }
+
+  /*
+  Test for the protocol's circuit
+  */
+
+  // We test whether a bit sum is equal to 18, which is the point-to-permute hashed number of bits of 32-bit values
+  long d = 18;
+  vector<long> coefficients = interpolate(d, p);
+
+  cout << "Interpolated coefficients:\n";
+  for (int i = 0; i < coefficients.size(); i++){
+    cout << coefficients[i] << " ";
+  }
+  cout << "\n";
+
+  helib::Ctxt power1(public_key);
+  public_key.Encrypt(power1, ptxt);
+
+  helib::Ptxt<helib::BGV> all_ones_ptxt(context);
+  for (int i = 0; i < all_ones_ptxt.size(); i++){
+    all_ones_ptxt[i] = 1;
+  }
+
+  helib::Ctxt all_ones_ctxt(public_key);
+  public_key.Encrypt(all_ones_ctxt, all_ones_ptxt);
+
+  vector<helib::Ctxt> small_powers;
+  small_powers.push_back(all_ones_ctxt);
+  small_powers.push_back(power1);
+
+
+  cout << "Get power 2:\n";
+  small_powers.push_back(power1);
+  TIME(small_powers[2].multiplyBy(small_powers[1]));
+
+  cout << "Get power 3:\n";
+  small_powers.push_back(small_powers[2]);
+  TIME(small_powers[3].multiplyBy(small_powers[1]));
+
+  cout << "Get power 4:\n";
+  small_powers.push_back(small_powers[2]);
+  TIME(small_powers[4].multiplyBy(small_powers[2]));
+
+  cout << "Get power 5:\n";
+  small_powers.push_back(small_powers[4]);
+  TIME(small_powers[5].multiplyBy(small_powers[1]));
+
+
+  vector<helib::Ctxt> big_powers;
+  big_powers.push_back(all_ones_ctxt);
+  big_powers.push_back(small_powers[4]);
+
+  cout << "Get power 8:\n";
+  big_powers.push_back(big_powers[1]);
+  TIME(big_powers[2].multiplyBy(big_powers[1]));
+
+  cout << "Get power 12:\n";
+  big_powers.push_back(big_powers[2]);
+  TIME(big_powers[3].multiplyBy(big_powers[1]));
+
+  cout << "Get power 16:\n";
+  big_powers.push_back(big_powers[2]);
+  TIME(big_powers[4].multiplyBy(big_powers[2]));
   return 0;
 }
