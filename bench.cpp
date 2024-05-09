@@ -217,6 +217,17 @@ int main(int argc, char* argv[])
   }
   cout << "\n";
 
+  for (int i = 0; i <= 18; i++){
+    long tot = 0;
+    long x = 1;
+    for (int j = 0; j <= 18; j++){
+      tot += (x * coefficients[j]) % p;
+      (x *= i) %= p;
+    }
+    tot %= p;
+    cout << "Interpolated polynomial for x = " << i << ": " << tot << "\n";
+  }
+
   helib::Ctxt power1(public_key);
   public_key.Encrypt(power1, ptxt);
 
@@ -265,5 +276,87 @@ int main(int argc, char* argv[])
   cout << "Get power 16:\n";
   big_powers.push_back(big_powers[2]);
   TIME(big_powers[4].multiplyBy(big_powers[2]));
+
+
+  helib::Ptxt<helib::BGV> all_zeros_ptxt(context);
+  for (int i = 0; i < all_zeros_ptxt.size(); i++){
+    all_zeros_ptxt[i] = 0;
+  }
+
+  // Setting the total to be zero first
+  helib::Ctxt total(public_key);
+  public_key.Encrypt(total, all_zeros_ptxt);
+
+  helib::Ctxt tmp(public_key); // dummy
+
+  for (int i = 0; i <= 4; i++){ // big powers
+    helib::Ctxt small_total(public_key);
+    public_key.Encrypt(small_total, all_zeros_ptxt);   
+
+    // compute smaller brackets
+    for (int j = 0; j <= 3; j++){ // small powes
+      tmp = small_powers[j];
+      if (i * 4 + j > d) break;
+      cout << "Multiplying with constant coefficients";
+      TIME(tmp.multByConstant(coefficients[i*4+j]));
+      small_total.addCtxt(tmp);
+    }
+
+    // adding it to the larger sum, something like x^12 (x^0 + 3x^1 + x^2 + 7x^3)
+    cout << "Multiplying with big powers\n";
+    TIME(small_total.multiplyBy(big_powers[i]));
+    total.addCtxt(small_total);
+  }
+
+  cout << "\n\n\nCan we decrypt? " << total.isCorrect() << "\n\n\n";
+
+
+  // Decrypt the modified ciphertext into a new plaintext
+  helib::Ptxt<helib::BGV> new_plaintext_result(context);
+  secret_key.Decrypt(new_plaintext_result, total);
+
+  std::cout << "Decrypted Result: " << new_plaintext_result << std::endl;
+
+  secret_key.Decrypt(new_plaintext_result, small_powers[0]);
+  std::cout << "Small power 0: " << new_plaintext_result << "\n";
+
+  secret_key.Decrypt(new_plaintext_result, small_powers[1]);
+  std::cout << "Small power 1: " << new_plaintext_result << "\n";
+
+  secret_key.Decrypt(new_plaintext_result, small_powers[2]);
+  std::cout << "Small power 2: " << new_plaintext_result << "\n";
+
+  secret_key.Decrypt(new_plaintext_result, small_powers[3]);
+  std::cout << "Small power 3: " << new_plaintext_result << "\n";
+
+  secret_key.Decrypt(new_plaintext_result, big_powers[0]);
+  std::cout << "Big power 0: " << new_plaintext_result << "\n";
+
+  secret_key.Decrypt(new_plaintext_result, big_powers[1]);
+  std::cout << "Big power 4: " << new_plaintext_result << "\n";
+
+  cout << "\n\n";
+  secret_key.Decrypt(new_plaintext_result, big_powers[2]);
+  std::cout << "Big power 8: " << new_plaintext_result << "\n";
+
+  cout << "Reference for big power 8:\n";
+  for (int i = 0; i <= 18; i++) cout << power(i, 8, p) << " ";
+  cout << "\n";
+
+  cout << "\n\n";
+  secret_key.Decrypt(new_plaintext_result, big_powers[3]);
+  std::cout << "Big power 12: " << new_plaintext_result << "\n";
+
+  cout << "Reference for big power 12:\n";
+  for (int i = 0; i <= 18; i++) cout << power(i, 12, p) << " ";
+  cout << "\n";
+
+  cout << "\n\n";
+  secret_key.Decrypt(new_plaintext_result, big_powers[4]);
+  std::cout << "Big power 16: " << new_plaintext_result << "\n";
+
+  cout << "Reference for big power 16:\n";
+  for (int i = 0; i <= 18; i++) cout << power(i, 16, p) << " ";
+  cout << "\n";
   return 0;
 }
