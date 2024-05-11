@@ -117,3 +117,37 @@ Found good packing parameter: m = 19136, pack = 2112
 Found good packing parameter: m = 20332, pack = 2112
 Found good packing parameter: m = 23920, pack = 2112
 Found good packing parameter: m = 25024, pack = 2816
+
+
+F_{p^d}
+
+m | p^d - 1
+
+p = 2 --> d is large because we need m | 2^d - 1 
+p is large --> d is smaller --> more slots 
+
+
+For example:
+p = 31
+m = 20000
+phi(m) = 1000
+d = 50
+
+Number of slots: phi(m) / d = 20
+In each slot: we can pack 30 elements of F_{30} into one element of F_{30^50} using RMFE. And still keep multiplication and addition correct.
+
+
+Sender:   (x_1, x_2, x_3) --> one slot
+Receiver: y_1
+
+Comparison result: (1, 0, 0), (0, 1, 0), (0, 0, 1), (0, 0, 0) \in (F_{30})^30
+
+x_1 --> price c_1
+x_2 --> price c_2
+x_3 --> price c_3
+
+Map each of them back to F_{30^50}
+
+(1, 0, 0) \in (F_{31})^30 -> c_1 \in F_{31^50}
+(0, 1, 0) \in (F_{31})^30 -> c_2 \in F_{31^50}
+(0, 0, 1) \in (F_{31})^30 -> c_3 \in F_{31^50}

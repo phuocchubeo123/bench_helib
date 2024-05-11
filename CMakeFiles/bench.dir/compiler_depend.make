@@ -181,6 +181,46 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/random \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/bits/random.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+  /usr/include/c++/11/bits/random.tcc \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/helib.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/version.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/DoubleCRT.h \
@@ -211,31 +251,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /home/ubuntu/helib_install/helib_pack/include/NTL/new.h \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/cmath \
-  /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -280,7 +295,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
@@ -293,12 +307,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/pstl/execution_defs.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_set.h \
@@ -324,7 +332,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bit \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -401,16 +408,9 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/PolyMod.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h
 
-
-/usr/include/c++/11/bits/stl_numeric.h:
-
-/usr/include/c++/11/numeric:
 
 /usr/include/c++/11/bits/quoted_string.h:
 
@@ -500,8 +500,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/bit:
-
 /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h:
 
 /usr/include/c++/11/bits/align.h:
@@ -542,16 +540,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 
 /usr/include/c++/11/set:
 
-/home/ubuntu/helib_install/helib_pack/include/helib/assertions.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/vector:
-
 /usr/include/c++/11/bits/unordered_map.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
@@ -573,10 +561,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/stl_algo.h:
 
@@ -601,6 +585,40 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /home/ubuntu/helib_install/helib_pack/include/NTL/FFT.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/sp_arith.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/ctime:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/mutex:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/GF2X.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/atomic:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/thread.h:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/SmartPtr.h:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/lzz_pEX.h:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/gmp_aux.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
@@ -636,6 +654,8 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
+/usr/include/c++/11/numeric:
+
 /usr/include/strings.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -645,14 +665,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/mutex:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -679,10 +691,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/locale.h:
 
@@ -713,8 +721,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/thread.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -754,8 +760,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/c++/11/tuple:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -765,8 +769,6 @@ CMakeFiles/bench.dir/bench.cpp.o: bench.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/exception:
-
-/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -812,8 +814,6 @@ bench.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/c++/11/ctime:
-
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/iosfwd:
@@ -821,12 +821,6 @@ bench.cpp:
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
-
-/home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/GF2X.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/features.h:
 
@@ -865,6 +859,14 @@ bench.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/HAVE_AVX2.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -912,11 +914,17 @@ bench.cpp:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
+/usr/include/c++/11/bit:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/HAVE_CHRONO_TIME.h:
 
@@ -935,8 +943,6 @@ bench.cpp:
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/c++/11/atomic:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -994,6 +1000,8 @@ bench.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+/usr/include/c++/11/bits/random.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/alloca.h:
@@ -1007,10 +1015,6 @@ bench.cpp:
 /home/ubuntu/helib_install/helib_pack/include/helib/keys.h:
 
 /usr/include/c++/11/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/chrono:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/lzz_pE.h:
 
@@ -1056,13 +1060,13 @@ bench.cpp:
 
 /usr/include/c++/11/system_error:
 
+/usr/include/c++/11/bits/stl_vector.h:
+
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/11/stdexcept:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
@@ -1080,11 +1084,31 @@ bench.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
+/usr/include/c++/11/random:
+
 /home/ubuntu/helib_install/helib_pack/include/NTL/vec_lzz_p.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/HAVE_POSIX_TIME.h:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/home/ubuntu/helib_install/helib_pack/include/helib/version.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -1092,17 +1116,55 @@ bench.cpp:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
-/home/ubuntu/helib_install/helib_pack/include/NTL/HAVE_POSIX_TIME.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
 
-/usr/include/c++/11/bits/istream.tcc:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/11/bits/random.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/home/ubuntu/helib_install/helib_pack/include/NTL/GF2E.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/11/istream:
 
 /home/ubuntu/helib_install/helib_pack/include/helib/helib.h:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/c++/11/vector:
 
-/home/ubuntu/helib_install/helib_pack/include/helib/version.h:
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/home/ubuntu/helib_install/helib_pack/include/helib/assertions.h:
+
+/usr/include/c++/11/bits/vector.tcc:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/vector.h:
 
@@ -1138,8 +1200,6 @@ bench.cpp:
 
 /usr/include/c++/11/cstring:
 
-/usr/include/c++/11/ratio:
-
 /home/ubuntu/helib_install/helib_pack/include/NTL/mat_GF2.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/HAVE_AES_NI.h:
@@ -1156,38 +1216,6 @@ bench.cpp:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/GF2E.h:
-
-/usr/include/c++/11/limits:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/string.h:
@@ -1201,19 +1229,3 @@ bench.cpp:
 /home/ubuntu/helib_install/helib_pack/include/NTL/ZZ.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/lip.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/lzz_pEX.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/gmp_aux.h:
-
-/home/ubuntu/helib_install/helib_pack/include/NTL/SmartPtr.h:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/bits/unique_lock.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/parse_numbers.h:

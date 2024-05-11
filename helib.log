@@ -203,3 +203,64 @@
 [ 09:47:17 ] WARNING: KS-noise-ratio=1.479067
 [ 09:47:18 ] WARNING: KS-noise-ratio=3.265893
 [ 09:47:18 ] WARNING: KS-noise-ratio=1.488255
+[ 08:31:48 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:31:48 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:31:52 ] WARNING: KS-noise-ratio=4.524332
+[ 08:31:53 ] WARNING: KS-noise-ratio=2.918820
+[ 08:31:53 ] WARNING: KS-noise-ratio=3.488547
+[ 08:40:35 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:40:35 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:13 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:13 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:37 ] WARNING: KS-noise-ratio=3.243157
+[ 08:58:37 ] WARNING: KS-noise-ratio=1.691253
+[ 08:58:37 ] WARNING: KS-noise-ratio=2.671580
+[ 08:58:37 ] WARNING: KS-noise-ratio=2.025313
+[ 08:59:11 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:59:11 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:59:35 ] WARNING: KS-noise-ratio=2.445839
+[ 08:59:35 ] WARNING: KS-noise-ratio=1.725951
+[ 08:59:36 ] WARNING: KS-noise-ratio=3.723388
+[ 08:59:36 ] WARNING: KS-noise-ratio=2.034427
+[ 09:01:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:25 ] WARNING: KS-noise-ratio=3.589042
+[ 09:01:25 ] WARNING: KS-noise-ratio=2.209569
+[ 09:01:26 ] WARNING: KS-noise-ratio=3.165556
+[ 09:01:26 ] WARNING: KS-noise-ratio=2.331156
+[ 09:01:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:04:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:04:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:04:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:31 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:31 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:37 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:37 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-69.137980, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-110.121652, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-67.300134, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:59 ] WARNING: Ctxt::bringToSet called with capacity=-108.344490, likely decryption error
+[ 09:06:10 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:10 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:10 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
