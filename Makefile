@@ -129,6 +129,19 @@ bench/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/build
 .PHONY : bench/fast
 
+#=============================================================================
+# Target rules for targets named dataslot
+
+# Build rule for target.
+dataslot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataslot
+.PHONY : dataslot
+
+# fast build rule for target.
+dataslot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/build
+.PHONY : dataslot/fast
+
 bench.o: bench.cpp.o
 .PHONY : bench.o
 
@@ -153,6 +166,30 @@ bench.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/bench.cpp.s
 .PHONY : bench.cpp.s
 
+tryDataSlot.o: tryDataSlot.cpp.o
+.PHONY : tryDataSlot.o
+
+# target to build an object file
+tryDataSlot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.o
+.PHONY : tryDataSlot.cpp.o
+
+tryDataSlot.i: tryDataSlot.cpp.i
+.PHONY : tryDataSlot.i
+
+# target to preprocess a source file
+tryDataSlot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.i
+.PHONY : tryDataSlot.cpp.i
+
+tryDataSlot.s: tryDataSlot.cpp.s
+.PHONY : tryDataSlot.s
+
+# target to generate assembly for a file
+tryDataSlot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.s
+.PHONY : tryDataSlot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bench"
+	@echo "... dataslot"
 	@echo "... bench.o"
 	@echo "... bench.i"
 	@echo "... bench.s"
+	@echo "... tryDataSlot.o"
+	@echo "... tryDataSlot.i"
+	@echo "... tryDataSlot.s"
 .PHONY : help
 
 

@@ -344,6 +344,21 @@ int main(int argc, char* argv[])
 
   std::cout << "Decrypted Result: " << new_plaintext_result << std::endl;
 
+
+  // this program * max bin size
+
+  // e.g. N_X = 1,000,000     N_Y = 1,000
+  // Max bin size 3,000 
+  // This program * 3,000
+
+  // PSI-CA
+
+  // 500ms * 1000 = 500 seconds
+  // FIMD 
+  // Target:
+
+  // Total time: < 10 seconds 
+
   // secret_key.Decrypt(new_plaintext_result, small_powers[0]);
   // std::cout << "Small power 0: " << new_plaintext_result << "\n";
 

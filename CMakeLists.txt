@@ -8,3 +8,9 @@ add_executable(bench
 
 target_link_libraries(bench 
     helib)
+
+add_executable(dataslot
+    tryDataSlot.cpp)
+
+target_link_libraries(dataslot 
+    helib)

@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/benchmark
 
 # The main recursive "all" target.
 all: CMakeFiles/bench.dir/all
+all: CMakeFiles/dataslot.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/bench.dir/clean
+clean: CMakeFiles/dataslot.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ bench: CMakeFiles/bench.dir/rule
 CMakeFiles/bench.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/clean
 .PHONY : CMakeFiles/bench.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dataslot.dir
+
+# All Build rule for target.
+CMakeFiles/dataslot.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/benchmark/CMakeFiles --progress-num=3,4 "Built target dataslot"
+.PHONY : CMakeFiles/dataslot.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dataslot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dataslot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 0
+.PHONY : CMakeFiles/dataslot.dir/rule
+
+# Convenience name for target.
+dataslot: CMakeFiles/dataslot.dir/rule
+.PHONY : dataslot
+
+# clean rule for target.
+CMakeFiles/dataslot.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/clean
+.PHONY : CMakeFiles/dataslot.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

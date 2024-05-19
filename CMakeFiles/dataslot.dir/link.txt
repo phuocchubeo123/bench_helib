@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dataslot.dir/tryDataSlot.cpp.o -o dataslot  -Wl,-rpath,/home/ubuntu/helib_install/helib_pack/lib /home/ubuntu/helib_install/helib_pack/lib/libhelib.a /home/ubuntu/helib_install/helib_pack/lib/libntl.so /home/ubuntu/helib_install/helib_pack/lib/libgmp.so 
