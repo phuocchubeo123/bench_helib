@@ -315,3 +315,35 @@
 [ 08:25:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
 [ 08:25:55 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
 [ 08:25:55 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:57:25 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:58:27 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:58:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:14 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:50 ] WARNING: noise bound exceeded in encryption
+[ 09:00:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:00:34 ] WARNING: noise bound exceeded in encryption
+[ 09:02:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:02:34 ] WARNING: noise bound exceeded in encryption
+[ 09:02:46 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:03:02 ] WARNING: noise bound exceeded in encryption
+[ 09:03:02 ] WARNING: KS-noise-ratio=5165.515750
+[ 09:03:02 ] WARNING: KS-noise-ratio=1.002501
+[ 09:03:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:04:04 ] WARNING: noise bound exceeded in encryption
+[ 09:04:04 ] WARNING: KS-noise-ratio=6833.510738
+[ 09:04:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:03 ] WARNING: noise bound exceeded in encryption
+[ 09:05:03 ] WARNING: KS-noise-ratio=5697.703622
+[ 09:05:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:35 ] WARNING: noise bound exceeded in encryption
+[ 09:05:35 ] WARNING: KS-noise-ratio=5248.823932
+[ 09:05:35 ] WARNING: KS-noise-ratio=1.058152
+[ 09:05:51 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:07 ] WARNING: noise bound exceeded in encryption
+[ 09:06:07 ] WARNING: KS-noise-ratio=5253.547145
+[ 09:06:07 ] WARNING: KS-noise-ratio=1.141965
+[ 09:07:24 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:07:24 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:07:29 ] WARNING: noise bound exceeded in encryption
+[ 09:07:29 ] WARNING: KS-noise-ratio=28727.017689

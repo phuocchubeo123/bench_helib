@@ -52,7 +52,7 @@ int main(){
         cout << i << ": " << is_prime[i] << " " << phi[i] << "\n";
     }
 
-    int desired_batch = 30000;
+    int desired_batch = 10000;
 
     for (int p: primes){
         if (p < 30) continue;

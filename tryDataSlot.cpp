@@ -6,6 +6,18 @@
 
 using namespace std;
 
+using namespace std::chrono;
+auto start = high_resolution_clock::now();
+auto stop = high_resolution_clock::now();
+microseconds dur;
+
+#define TIME(X) \
+start = high_resolution_clock::now(); \
+X; \
+stop = high_resolution_clock::now(); \
+dur = duration_cast<microseconds>(stop - start); \
+cout << "Time taken: " << dur.count() / 1000 << "ms" << "\n";
+
 int main(int argc, char* argv[])
 {
   // Plaintext prime modulus
@@ -62,6 +74,7 @@ int main(int argc, char* argv[])
   std::cout << "Generating key-switching matrices..." << std::endl;
   // Compute key-switching matrices that we need
   helib::addSome1DMatrices(secret_key);
+  helib::addFrbMatrices(secret_key);
 
   // Public key management
   // Set the secret key (upcast: SecKey is a subclass of PubKey)
@@ -79,16 +92,16 @@ int main(int argc, char* argv[])
 
   cout << "Poly Mod: " << x << "\n";
 
-  cout << "G: " << x.getG() << "\n";
+  // cout << "G: " << x.getG() << "\n";
 
   NTL::ZZX u = x.getData();
 
-  cout << "u: " << u << "\n";
+  // cout << "u: " << u << "\n";
 
   SetCoeff(u, (long)2, (long)3);
   SetCoeff(u, (long)1, (long)5);
 
-  cout << "u: " << u << "\n";
+  // cout << "u: " << u << "\n";
 
   cout << "New ZZ[x] " << u << "\n";
 
@@ -103,10 +116,26 @@ int main(int argc, char* argv[])
 
     cout << "Automorphism:\n";
     ptxt.frobeniusAutomorph(1);
-    cout << ptxt[0].getData() << "\n";
+    // cout << ptxt[0].getData() << "\n";
 
     ptxt.frobeniusAutomorph(1);
-    cout << ptxt[0].getData() << "\n";
+    // cout << ptxt[0].getData() << "\n";
+
+
+
+    // Trying Frobenius Automorphism on Ciphertext
+
+  for (int i = 0; i < nslots; i++) ptxt[i] = (long) (i % 16);
+  helib::Ctxt ctxt(public_key);
+  public_key.Encrypt(ctxt, ptxt);
+
+  cout << "Frobenius automorphism:\n";
+  TIME(
+    for (int i = 0; i < 20; i++){
+      ctxt.frobeniusAutomorph((long) 1);
+      // cout << "done Automorph, can still decrypt? " << ctxt.isCorrect() << "\n";
+    }
+  )
 
     return 0;
 }
