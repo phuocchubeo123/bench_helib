@@ -71,7 +71,7 @@ int main(){
                     }
                     break;
                 } 
-                curr *= p;
+                (curr *= p) %= i;
             }
             
             if (cnt > 5) break;

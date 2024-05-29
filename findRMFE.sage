@@ -1,12 +1,12 @@
 ## In this Sage code, I will try to create RMFE with the following parameters
 ## Prime plaintext p = 31
-## Polynomial degree m = 1301
-## One slot has d = 58
+## Polynomial degree m = 1261
+## One slot has d = 48
 ## Degree in = 15
 ## Degree out = 29
 
 p = 31
-d = 58
+d = 48
 degree_in = 15
 degree_out = 2*degree_in - 1
 
@@ -47,7 +47,12 @@ linear_trans = matrix(linear_trans_list)
 
 
 final_transformation = (linear_trans * basis).transpose() * moore_inverse
-print(final_transformation.transpose())
+#print(final_transformation.transpose())
+
+for i in final_transformation[0]:
+    #print(i)
+    i_list = i.list()
+    print(' '.join(list(map(str, i_list))))
 
 def q_linearized(u):
     ## To implement this in FIMD, we will try to use Patterson-Stockmeyer trick but for q-linearized matrix
@@ -57,5 +62,6 @@ def q_linearized(u):
     return res
 
 
+# Testing if the q-linearized transformation is correct
 u = a^18
 print(q_linearized(u))

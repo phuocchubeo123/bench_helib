@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <fstream>
 
 #include <NTL/ZZX.h>
 #include <helib/helib.h>
@@ -59,8 +60,6 @@ int main(int argc, char* argv[])
   context.printout();
   std::cout << std::endl;
 
-  cout << "The Phi is: " << context.getPhiM() << "\n";
-
   // Print the security level
   std::cout << "Security: " << context.securityLevel() << std::endl;
 
@@ -86,6 +85,11 @@ int main(int argc, char* argv[])
   long nslots = ea.size();
   std::cout << "Number of slots: " << nslots << std::endl;
 
+  long phi = context.getPhiM();
+  cout << "Phi of m: " << phi << "\n";
+
+  long one_slot = phi / nslots;
+  cout << "Degree in one slot: " << one_slot << "\n";
 
   ////////////////////////////////////
 
@@ -146,55 +150,35 @@ int main(int argc, char* argv[])
 
   /////////////////////////
 
+  /*
+  Set one dummy plaintext, dummy Slot for the whole file
+  */
   helib::Ptxt<helib::BGV> ptxt(context);
-  helib::PolyMod x = ptxt[0]; 
+  NTL::ZZX poly = ptxt[0].getData(); 
 
-  cout << "Poly Mod: " << x << "\n";
+  //////////////////////////
 
-  // cout << "G: " << x.getG() << "\n";
+  /*
+  Read the q-linearized polynomial coefficients from the params file
+  */
+  ifstream param;
+  param.open("params/31_1261_15.txt");
 
-  NTL::ZZX u = x.getData();
+  vector<helib::Ptxt<helib::BGV>> q_linearized_coeff;
 
-  // cout << "u: " << u << "\n";
-
-  SetCoeff(u, (long)2, (long)3);
-  SetCoeff(u, (long)1, (long)5);
-
-  // cout << "u: " << u << "\n";
-
-  cout << "New ZZ[x] " << u << "\n";
-
-  cout << "Before\n";
-  cout << "ptxt[0]: " << ptxt[0] << "\n";
-  cout << ptxt[0].getData() << "\n";
-
-  ptxt[0] = u;
-
-  cout << "ptxt[0]: " << ptxt[0] << "\n";
-  cout << ptxt[0].getData() << "\n";
-
-  cout << "Automorphism:\n";
-  ptxt.frobeniusAutomorph(1);
-  // cout << ptxt[0].getData() << "\n";
-
-  ptxt.frobeniusAutomorph(1);
-  // cout << ptxt[0].getData() << "\n";
-
-
-
-    // Trying Frobenius Automorphism on Ciphertext
-
-  for (int i = 0; i < nslots; i++) ptxt[i] = (long) (i % 16);
-  helib::Ctxt ctxt(public_key);
-  public_key.Encrypt(ctxt, ptxt);
-
-  cout << "Frobenius automorphism:\n";
-  TIME(
-    for (int i = 0; i < 20; i++){
-      ctxt.frobeniusAutomorph((long) 1);
-      // cout << "done Automorph, can still decrypt? " << ctxt.isCorrect() << "\n";
+  for (int i = 0; i < 29; i++){
+    for (long j = 0; j < one_slot; j++){
+      long coeff; param >> coeff;
+      SetCoeff(poly, j, coeff);
     }
-  )
+
+    for (int j = 0; j < nslots; j++) ptxt[j] = poly;
+    q_linearized_coeff.push_back(ptxt);
+  }
+
+  for (int i = 0; i < 29; i++){
+    cout << q_linearized_coeff[i][0] << "\n";
+  }
 
   return 0;
 }
