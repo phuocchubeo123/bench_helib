@@ -347,3 +347,18 @@
 [ 09:07:24 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
 [ 09:07:29 ] WARNING: noise bound exceeded in encryption
 [ 09:07:29 ] WARNING: KS-noise-ratio=28727.017689
+[ 03:37:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:30 ] WARNING: KS-noise-ratio=59.733485
+[ 03:37:30 ] WARNING: KS-noise-ratio=1.301555
+[ 03:39:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:39:13 ] WARNING: KS-noise-ratio=64.141111
+[ 03:39:13 ] WARNING: KS-noise-ratio=1.109448
+[ 03:51:18 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:51:18 ] WARNING: KS-noise-ratio=1724.450029
+[ 03:51:18 ] WARNING: KS-noise-ratio=1.150511
+[ 03:51:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:51:49 ] WARNING: KS-noise-ratio=2178.549692
+[ 03:54:07 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:54:07 ] WARNING: KS-noise-ratio=1905.420832
+[ 03:55:15 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:55:15 ] WARNING: KS-noise-ratio=1879.312240

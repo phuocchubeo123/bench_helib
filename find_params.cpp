@@ -52,11 +52,11 @@ int main(){
         cout << i << ": " << is_prime[i] << " " << phi[i] << "\n";
     }
 
-    int desired_batch = 10000;
+    int desired_batch = 1000;
 
     for (int p: primes){
-        if (p < 30) continue;
-        if (p > 100) break;
+        if (p < 31) continue;
+        if (p > 31) break;
         cout << "Currently investigating prime: " << p << "\n";
 
         int cnt = 0;
@@ -66,7 +66,7 @@ int main(){
                 if (curr % i == 1){
                     int packing = (phi[i] / j) * min(j, 2*p-3);
                     if (packing >= desired_batch){
-                        cout << "Found good packing parameter: " << "m = " << i << ", pack = " << packing << "\n";
+                        cout << "Found good packing parameter: " << "m = " << i << ", pack = " << packing << ", one slot = " << j << "\n";
                         cnt++;
                     }
                     break;
