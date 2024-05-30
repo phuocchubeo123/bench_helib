@@ -19,7 +19,6 @@
 #include <random>
 
 #include <helib/helib.h>
-#include "rmfe.cpp"
 
 using namespace std::chrono;
 auto start = high_resolution_clock::now();

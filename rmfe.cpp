@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<vector<long>> basis;
+vector<vector<long>> lagrange_basis;
 
 // Function to compute the modular inverse of a under modulo p
 // Uses Fermat's little theorem: a^(p-1) ≡ 1 (mod p), hence a^(p-2) ≡ a^(-1) (mod p)
@@ -22,6 +22,7 @@ long modInverse(long a, long p) {
 }
 
 void generate_lagrange_basis(vector<long> x, long p){
+    lagrange_basis.clear();
     for (int i = 0; i < x.size(); i++){
         vector<long> component;
         component.push_back(1);
@@ -35,11 +36,11 @@ void generate_lagrange_basis(vector<long> x, long p){
         long inv = 1;
         for (int j = 0; j < x.size(); j++){
             if (i == j) continue;
-            inv *= modInverse((p + x[i] - x[j]) % p, p);
+            (inv *= modInverse((p + x[i] - x[j]) % p, p)) %= p;
         }
 
         for (int j = 0; j < component.size(); j++) (component[j] *= inv) %= p;
-        basis.push_back(component);
+        lagrange_basis.push_back(component);
     }
 }
 
@@ -47,7 +48,7 @@ void generate_lagrange_basis(vector<long> x, long p){
 vector<long> lagrange_interpolation(vector<long> f, long p){
     vector<long> coeff(f.size(), 0);
     for (int i = 0; i < f.size(); i++){
-        for (int j = 0; j < basis[i].size(); j++) (coeff[j] += basis[i][j] * f[i]) %= p;
+        for (int j = 0; j < lagrange_basis[i].size(); j++) (coeff[j] += lagrange_basis[i][j] * f[i]) %= p;
     }
     return coeff;
 }

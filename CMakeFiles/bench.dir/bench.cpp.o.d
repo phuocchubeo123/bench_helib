@@ -347,5 +347,4 @@ CMakeFiles/bench.dir/bench.cpp.o: /home/ubuntu/benchmark/bench.cpp \
  /usr/include/c++/11/bits/quoted_string.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/PolyMod.h \
- /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h \
- /home/ubuntu/benchmark/rmfe.cpp
+ /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h

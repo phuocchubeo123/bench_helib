@@ -373,3 +373,280 @@
 [ 06:23:56 ] WARNING: ctxtPrimeSize: non-optimal targetSize
 [ 06:26:38 ] WARNING: ctxtPrimeSize: non-optimal targetSize
 [ 06:28:26 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:49:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:50:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:51:00 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:53:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:53:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:05:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:05:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:03 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:14:24 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:15:37 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:18:25 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:05:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:05:49 ] WARNING: KS-noise-ratio=2.502730
+[ 03:05:49 ] WARNING: KS-noise-ratio=2.356435
+[ 03:06:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:06:33 ] WARNING: KS-noise-ratio=2.595489
+[ 03:06:33 ] WARNING: KS-noise-ratio=2.197492
+[ 03:08:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:08:49 ] WARNING: KS-noise-ratio=2.030965
+[ 03:08:49 ] WARNING: KS-noise-ratio=1.902949
+[ 03:36:42 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:36:42 ] WARNING: KS-noise-ratio=2.185443
+[ 03:36:42 ] WARNING: KS-noise-ratio=2.057373
+[ 03:37:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:11 ] WARNING: KS-noise-ratio=2.438222
+[ 03:37:11 ] WARNING: KS-noise-ratio=2.718121
+[ 03:37:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:20 ] WARNING: KS-noise-ratio=2.007885
+[ 03:37:20 ] WARNING: KS-noise-ratio=1.906613
+[ 03:37:23 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:23 ] WARNING: KS-noise-ratio=2.368568
+[ 03:37:23 ] WARNING: KS-noise-ratio=2.055476
+[ 04:12:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:12:30 ] WARNING: KS-noise-ratio=2.144592
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.524525
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.155593
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.833621
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.155456
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.128509
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.669679
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.339565
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.630461
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.421534
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.343738
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.427857
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.364326
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.405053
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.880709
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.211793
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.214661
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.322766
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.711460
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.999139
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.329717
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.384629
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.096276
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.428423
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.375472
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.563515
+[ 04:12:32 ] WARNING: KS-noise-ratio=1.918764
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.197432
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.271157
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.003926
+[ 04:12:32 ] WARNING: KS-noise-ratio=1.769746
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.247164
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.311894
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.031324
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.127406
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.457389
+[ 04:16:06 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.074089
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.265944
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.099388
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.886088
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.941309
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.151654
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.870029
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.739927
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.619106
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.336609
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.474180
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.713473
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.515682
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.532938
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.174072
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.964753
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.027444
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.030717
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.708479
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.719109
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.812787
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.994834
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.053952
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.291170
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.180265
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.064355
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.829690
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.247250
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.300658
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.269859
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.807557
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.899371
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.063931
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.258877
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.234141
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.355405
+[ 04:17:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.187130
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.646825
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.157398
+[ 04:17:47 ] WARNING: KS-noise-ratio=1.864427
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.394296
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.430456
+[ 04:17:47 ] WARNING: KS-noise-ratio=1.898434
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.019339
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.369684
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.429496
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.097955
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.161125
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.289634
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.501314
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.016844
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.355318
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.896961
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.920830
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.768508
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.621690
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.944916
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.269211
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.146019
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.336648
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.168683
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.726411
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.027128
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.337985
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.041632
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.035628
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.613564
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.573925
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.410235
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.319038
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.507232
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.371470
+[ 04:17:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.687785
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.453882
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.824987
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.832963
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.299196
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.209322
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.122527
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.739132
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.075889
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.269266
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.554590
+[ 04:17:56 ] WARNING: KS-noise-ratio=3.000982
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.577300
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.107557
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.253545
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.909139
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.484829
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.844736
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.114084
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.960305
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.981954
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.922263
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.370312
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.336150
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.264920
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.097121
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.034198
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.186414
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.124029
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.298486
+[ 04:17:57 ] WARNING: KS-noise-ratio=1.768949
+[ 04:17:57 ] WARNING: KS-noise-ratio=1.869616
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.321626
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.558529
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.090061
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.174937
+[ 04:18:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:18:47 ] WARNING: KS-noise-ratio=2.255893
+[ 04:18:47 ] WARNING: KS-noise-ratio=2.216040
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.889696
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.968736
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.233765
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.150442
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.689075
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.878137
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.505777
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.238238
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.646694
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.182030
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.421777
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.331056
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.237684
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.278757
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.123205
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.713948
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.775104
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.689752
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.058988
+[ 04:19:01 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.157646
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.876912
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.755853
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.897129
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.197999
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.045040
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.673572
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.132603
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.320903
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.187083
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.511657
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.654277
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.404832
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.540590
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.055330
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.420620
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.291235
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.798551
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.313147
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.945639
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.234694
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.223678
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.456884
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.307389
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.427370
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.103142
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.884553
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.124859
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.176904
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.336357
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.867237
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.770078
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.445151
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.132774
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.168669
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.641814
+[ 04:20:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.258071
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.201552
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.287888
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.107992
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.319771
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.010216
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.115482
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.820423
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.500179
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.425757
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.236702
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.570554
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.264723
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.535947
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.292853
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.904518
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.363193
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.250088
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.963030
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.215024
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.099890
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.322841
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.976577
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.269694
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.160228
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.464384
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.131837
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.317003
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.938093
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.962544
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.635774
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.676504
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.182318
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.126292
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.016961
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.139480
