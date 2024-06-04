@@ -2,73 +2,15 @@
 #include <random>
 #include <fstream>
 
+
 #include <NTL/ZZX.h>
-#include <helib/helib.h>
 #include "rmfe.cpp"
 
 using namespace std;
 
-using namespace std::chrono;
-auto start = high_resolution_clock::now();
-auto stop = high_resolution_clock::now();
-microseconds dur;
-
-#define TIME(X) \
-start = high_resolution_clock::now(); \
-X; \
-stop = high_resolution_clock::now(); \
-dur = duration_cast<microseconds>(stop - start); \
-cout << "Time taken: " << dur.count() / 1000 << "ms" << "\n";
 
 mt19937 mt(5);
 
-/*
-Macro for q-lineaization
-*/
-#define Q_LINEARIZE(ctxt) \
-vector<helib::Ctxt> small_frob; \
-small_frob.push_back(ctxt); \
-for (int i = 1; i < 6; i++){ \
-  small_frob.push_back(small_frob[i-1]); \
-  small_frob[i].frobeniusAutomorph((long) 1); \
-} \
-cout << "Done getting small frobs\n"; \ 
-helib::Ctxt tot = small_frob[0]; \
-for (long j = 0; j < 6; j++){ \
-  helib::Ctxt small_tot = small_frob[0]; \
-  for (int i = 0; i < 6; i++){ \
-    if (j * 6 + i >= q_linearized_coeff.size()) continue; \
-    if (i == 0){ \
-      small_tot.multByConstant(q_linearized_coeff[j*6+i]); \
-      continue; \
-    } \
-    else{ \
-      ctxt = small_frob[i]; \
-      ctxt.multByConstant(q_linearized_coeff[j*6+i]); \
-      small_tot.addCtxt(ctxt); \
-    } \
-  } \
-  small_tot.frobeniusAutomorph(j); \
-  if (j == 0) tot = small_tot; \
-  else tot.addCtxt(small_tot); \
-} \
-ctxt = tot;
-
-/*
-Macro for FIMD ciphertext-plaintext multiplication
-*/
-#define FIMD_PTXT_MULTIPLY(ctxt, ptxt) \
-ctxt.multByConstant(ptxt); \
-cout << "Performing q-linearization:\n"; \
-TIME(Q_LINEARIZE(ctxt)); 
-
-/* 
-Macro for FIMD ciphertext-ciphertext multiplication
-*/
-#define FIMD_CTXT_MULTIPLY(ctxt, other_ctxt) \
-ctxt.multiplyBy(other_ctxt); \
-cout << "Performing q-linearization:\n"; \
-TIME(Q_LINEARIZE(ctxt)); 
 
 
 vector<long> generate_bit_compare_polynomial(long d, long p){
@@ -102,6 +44,7 @@ vector<long> generate_bit_compare_polynomial(long d, long p){
   for (long i = 0; i < ans.size(); i++) (ans[i] *= denom) %= p;
   return ans;
 }
+
 
 int main(int argc, char* argv[])
 {
@@ -141,6 +84,8 @@ int main(int argc, char* argv[])
   context.printout();
   std::cout << std::endl;
 
+  cout << "Estimated ciphertext size: " << estimateCtxtSize(context, 1) << "\n";
+
   // Print the security level
   std::cout << "Security: " << context.securityLevel() << std::endl;
 
@@ -173,7 +118,7 @@ int main(int argc, char* argv[])
   cout << "Degree in one slot: " << one_slot << "\n";
 
   /* Notable for generalization later*/
-  long one_packing = 15;
+  long one_packing = 8;
 
   ////////////////////////////////////
 
@@ -212,21 +157,8 @@ int main(int argc, char* argv[])
   Find 15 evaluation points mod 31 such that x^15 - 1 = 0
   */
 
-  cout << "Evaluation points such that x^15 - 1 = 0\n";
-  int cnt = 0;
   vector<long> evaluation_points;
-  for (int i = 0; i < 31; i++){
-    int u = 1; 
-    for (int j = 0; j < 15; j++) (u *= i) %= p;
-    if (u == 1){
-      cnt++;
-      cout << i << " ";
-      evaluation_points.push_back(i);
-    }
-  }
-
-  cout << "\n";
-  cout << "Total number of evaluation points: " << cnt << "\n";
+  for (long i = 0; i < one_packing; i++) evaluation_points.push_back(i);
 
 
   /*
@@ -241,9 +173,9 @@ int main(int argc, char* argv[])
   /*
   Set one dummy plaintext, dummy Slot for the whole file
   */
-  helib::Ptxt<helib::BGV> ptxt(context);
-  helib::Ctxt ctxt(public_key);
-  NTL::ZZX poly = ptxt[0].getData(); 
+  helib::Ptxt<helib::BGV> dummy_ptxt(context);
+  helib::Ctxt dummy_ctxt(public_key);
+  NTL::ZZX poly = dummy_ptxt[0].getData(); 
 
   //////////////////////////
 
@@ -253,7 +185,7 @@ int main(int argc, char* argv[])
   ifstream param;
   param.open("params/31_1261_15.txt");
 
-  vector<helib::Ptxt<helib::BGV>> q_linearized_coeff;
+  FIMD rmfe_operator;
 
   for (int i = 0; i < 29; i++){
     for (long j = 0; j < one_slot; j++){
@@ -261,12 +193,12 @@ int main(int argc, char* argv[])
       SetCoeff(poly, j, coeff);
     }
 
-    for (int j = 0; j < nslots; j++) ptxt[j] = poly;
-    q_linearized_coeff.push_back(ptxt);
+    for (int j = 0; j < nslots; j++) dummy_ptxt[j] = poly;
+    rmfe_operator.q_linearized_coeff.push_back(dummy_ptxt);
   }
 
   for (int i = 0; i < 29; i++){
-    cout << q_linearized_coeff[i][0] << "\n";
+    cout << rmfe_operator.q_linearized_coeff[i][0] << "\n";
   }
 
 
@@ -291,10 +223,12 @@ int main(int argc, char* argv[])
       for (long j = 0; j < corresponding_field_element.size(); j++){
         SetCoeff(poly, j, corresponding_field_element[j]);
       }
-      ptxt[i] = poly;
+      dummy_ptxt[i] = poly;
     }
-    public_key.Encrypt(ctxt, ptxt);
-    receiver_ciphertexts.push_back(ctxt);
+    public_key.Encrypt(dummy_ctxt, dummy_ptxt);
+    cout << "Done encrypting\n";
+    cout << "The size of the ciphertext is: " << estimateCtxtSize(context, 1) << "\n";
+    receiver_ciphertexts.push_back(dummy_ctxt);
   }
   )
 
@@ -314,9 +248,9 @@ int main(int argc, char* argv[])
       }
       vector<long> corresponding_field_element = lagrange_interpolation(bits_to_pack, p);
       for (long j = 0; j < corresponding_field_element.size(); j++) SetCoeff(poly, j, corresponding_field_element[j]);
-      ptxt[i] = poly;
+      dummy_ptxt[i] = poly;
     }
-    sender_plaintexts.push_back(ptxt);
+    sender_plaintexts.push_back(dummy_ptxt);
   }
   )
 
@@ -351,21 +285,21 @@ int main(int argc, char* argv[])
   for (int bit = 0; bit < d; bit++){
     cout << "XNORing one plaintext with one ciphertext in bit " << bit << "...\n";
     TIME(
-      ptxt = sender_plaintexts[bit];
-      ptxt += ptxt;
+      dummy_ptxt = sender_plaintexts[bit];
+      dummy_ptxt += dummy_ptxt;
       all_ones_ptxt *= (long) (p-1);
-      ptxt += all_ones_ptxt;
-      ctxt = receiver_ciphertexts[bit];
-      FIMD_PTXT_MULTIPLY(ctxt, ptxt);
-      ptxt = sender_plaintexts[bit];
-      ptxt *= (long) (p-1);
-      ptxt += all_ones_ptxt;
-      ctxt.addConstant(ptxt);
+      dummy_ptxt += all_ones_ptxt;
+      dummy_ctxt = receiver_ciphertexts[bit];
+      rmfe_operator.multByConstant(dummy_ctxt, dummy_ptxt);
+      dummy_ptxt = sender_plaintexts[bit];
+      dummy_ptxt *= (long) (p-1);
+      dummy_ptxt += all_ones_ptxt;
+      dummy_ctxt.addConstant(dummy_ptxt);
       all_ones_ptxt *= (long) (p-1);
     )
 
-    if (bit == 0) bit_sum = ctxt;
-    else bit_sum.addCtxt(ctxt);
+    if (bit == 0) bit_sum = dummy_ctxt;
+    else bit_sum.addCtxt(dummy_ctxt);
   }
 
   vector<helib::Ctxt> small_powers;
@@ -377,7 +311,15 @@ int main(int argc, char* argv[])
   for (int i = 2; i < 5; i++){
     small_powers.push_back(small_powers[i / 2]);
     cout << "Taking powers " << i << "\n"; 
-    TIME(FIMD_CTXT_MULTIPLY(small_powers[i], small_powers[i - i / 2]));
+    TIME(rmfe_operator.multByCtxt(small_powers[i], small_powers[i - i / 2]));
+  }
+
+  big_powers.push_back(all_ones_ctxt);
+  big_powers.push_back(small_powers[4]);
+  for (int i = 2; i < 5; i++){
+    big_powers.push_back(big_powers[i / 2]);
+    cout << "Taking big powers " << i*4 << "\n";
+    TIME(rmfe_operator.multByCtxt(big_powers[i], big_powers[i - i / 2]));
   }
 
   vector<long> bit_compare_coefficients = generate_bit_compare_polynomial(d, p);

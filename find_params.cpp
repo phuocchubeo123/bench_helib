@@ -52,26 +52,28 @@ int main(){
         cout << i << ": " << is_prime[i] << " " << phi[i] << "\n";
     }
 
-    int desired_batch = 1000;
+    int POWER_OF_TWO = (1 << 12);
+    int PHI_POWER_OF_TWO = POWER_OF_TWO / 2;
+    int desired_batch = PHI_POWER_OF_TWO / 2;
 
     for (int p: primes){
         if (p < 31) continue;
-        if (p > 31) break;
+        if (p > 600) break;
         cout << "Currently investigating prime: " << p << "\n";
 
         int cnt = 0;
-        for (int i = 100; i < N; i++){
+        for (int i = POWER_OF_TWO; i <= POWER_OF_TWO; i++){
             int curr = p;
-            for (int j = 1; j < i; j++){
+            for (int j = 1; j < i; j*=2){
                 if (curr % i == 1){
-                    int packing = (phi[i] / j) * min(j, 2*p-3);
+                    int packing = (PHI_POWER_OF_TWO / j) * min(j / 2, p);
                     if (packing >= desired_batch){
-                        cout << "Found good packing parameter: " << "m = " << i << ", pack = " << packing << ", one slot = " << j << "\n";
+                        cout << "Found good packing parameter: " << "m = " << i << ", pack = " << packing << ", one slot = " << j << ", no of slots: " << PHI_POWER_OF_TWO / j << "\n";
                         cnt++;
                     }
                     break;
                 } 
-                (curr *= p) %= i;
+                (curr *= curr) %= i;
             }
             
             if (cnt > 5) break;

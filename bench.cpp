@@ -131,6 +131,8 @@ int main(int argc, char* argv[])
   context.printout();
   std::cout << std::endl;
 
+  cout << "All primes chosen: " << context.allPrimes() << "\n";
+
   // Print the security level
   std::cout << "Security: " << context.securityLevel() << std::endl;
 
@@ -143,6 +145,7 @@ int main(int argc, char* argv[])
   std::cout << "Generating key-switching matrices..." << std::endl;
   // Compute key-switching matrices that we need
   helib::addSome1DMatrices(secret_key);
+
 
   // Public key management
   // Set the secret key (upcast: SecKey is a subclass of PubKey)
@@ -224,7 +227,22 @@ int main(int argc, char* argv[])
 
   // First step is to xnor all corresponding bits, then sum them up.
   helib::Ctxt bit_sum(public_key);
+
+  cout << "Done until here" << "\n";
+
+  helib::IndexSet new_indexset;
+  for (long i = 0; i < 14; i++){
+    if (i >= 9 && i <= 10) continue;
+    new_indexset.insert(i);
+  }
+
+  cout << new_indexset << "\n";
+
   public_key.Encrypt(bit_sum, all_zeros_ptxt);
+  bit_sum.modDownToSet(new_indexset);
+
+  cout << "Done until mod switch down" << "\n";
+
 
   for (int bit = 0; bit < d; bit++){
     cout << "XNORing ciphertext with plaintext\n";

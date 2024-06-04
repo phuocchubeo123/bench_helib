@@ -126,7 +126,7 @@ bench: cmake_check_build_system
 
 # fast build rule for target.
 bench/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/build
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/bench.dir/build.make bin/CMakeFiles/bench.dir/build
 .PHONY : bench/fast
 
 #=============================================================================
@@ -139,56 +139,21 @@ dataslot: cmake_check_build_system
 
 # fast build rule for target.
 dataslot/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/build
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/dataslot.dir/build.make bin/CMakeFiles/dataslot.dir/build
 .PHONY : dataslot/fast
 
-bench.o: bench.cpp.o
-.PHONY : bench.o
+#=============================================================================
+# Target rules for targets named find_params
 
-# target to build an object file
-bench.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/bench.cpp.o
-.PHONY : bench.cpp.o
+# Build rule for target.
+find_params: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 find_params
+.PHONY : find_params
 
-bench.i: bench.cpp.i
-.PHONY : bench.i
-
-# target to preprocess a source file
-bench.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/bench.cpp.i
-.PHONY : bench.cpp.i
-
-bench.s: bench.cpp.s
-.PHONY : bench.s
-
-# target to generate assembly for a file
-bench.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench.dir/build.make CMakeFiles/bench.dir/bench.cpp.s
-.PHONY : bench.cpp.s
-
-tryDataSlot.o: tryDataSlot.cpp.o
-.PHONY : tryDataSlot.o
-
-# target to build an object file
-tryDataSlot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.o
-.PHONY : tryDataSlot.cpp.o
-
-tryDataSlot.i: tryDataSlot.cpp.i
-.PHONY : tryDataSlot.i
-
-# target to preprocess a source file
-tryDataSlot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.i
-.PHONY : tryDataSlot.cpp.i
-
-tryDataSlot.s: tryDataSlot.cpp.s
-.PHONY : tryDataSlot.s
-
-# target to generate assembly for a file
-tryDataSlot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataslot.dir/build.make CMakeFiles/dataslot.dir/tryDataSlot.cpp.s
-.PHONY : tryDataSlot.cpp.s
+# fast build rule for target.
+find_params/fast:
+	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/find_params.dir/build.make bin/CMakeFiles/find_params.dir/build
+.PHONY : find_params/fast
 
 # Help Target
 help:
@@ -200,12 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bench"
 	@echo "... dataslot"
-	@echo "... bench.o"
-	@echo "... bench.i"
-	@echo "... bench.s"
-	@echo "... tryDataSlot.o"
-	@echo "... tryDataSlot.i"
-	@echo "... tryDataSlot.s"
+	@echo "... find_params"
 .PHONY : help
 
 

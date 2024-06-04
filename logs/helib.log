@@ -1,0 +1,1115 @@
+[ 01:19:50 ] WARNING: KS-noise-ratio=51.392632
+[ 02:04:26 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:04:26 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:06:01 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:01 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:29:58 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:29:58 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:32:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:32:50 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:33:14 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:33:14 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:40:37 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:43:29 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:48:02 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:53:27 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:56:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:56:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:56:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:57:27 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:57:27 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:57:27 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:57:31 ] WARNING: KS-noise-ratio=1.844389
+[ 02:57:32 ] WARNING: KS-noise-ratio=1.787155
+[ 02:57:32 ] WARNING: KS-noise-ratio=1.576043
+[ 02:57:33 ] WARNING: KS-noise-ratio=2.056561
+[ 02:57:33 ] WARNING: KS-noise-ratio=2.075255
+[ 02:57:34 ] WARNING: KS-noise-ratio=1.737001
+[ 02:57:34 ] WARNING: KS-noise-ratio=2.132200
+[ 02:57:34 ] WARNING: KS-noise-ratio=1.594088
+[ 02:57:35 ] WARNING: KS-noise-ratio=1.720351
+[ 02:58:07 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:58:07 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:58:07 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:58:11 ] WARNING: KS-noise-ratio=1.671384
+[ 02:58:12 ] WARNING: KS-noise-ratio=1.961159
+[ 02:58:12 ] WARNING: KS-noise-ratio=1.470018
+[ 02:58:13 ] WARNING: KS-noise-ratio=1.846614
+[ 02:58:13 ] WARNING: KS-noise-ratio=1.784048
+[ 02:58:14 ] WARNING: KS-noise-ratio=2.207851
+[ 02:58:14 ] WARNING: KS-noise-ratio=1.727399
+[ 02:58:15 ] WARNING: KS-noise-ratio=1.853462
+[ 02:58:16 ] WARNING: KS-noise-ratio=2.665464
+[ 02:59:02 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:59:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:59:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:59:06 ] WARNING: KS-noise-ratio=1.623317
+[ 02:59:06 ] WARNING: KS-noise-ratio=1.914730
+[ 02:59:07 ] WARNING: KS-noise-ratio=1.696818
+[ 02:59:08 ] WARNING: KS-noise-ratio=1.485635
+[ 02:59:08 ] WARNING: KS-noise-ratio=2.266393
+[ 02:59:09 ] WARNING: KS-noise-ratio=1.722497
+[ 02:59:10 ] WARNING: KS-noise-ratio=1.823365
+[ 02:59:10 ] WARNING: KS-noise-ratio=1.270060
+[ 02:59:11 ] WARNING: KS-noise-ratio=1.603036
+[ 03:02:00 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:02:00 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:02:00 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:02:06 ] WARNING: KS-noise-ratio=1.606193
+[ 03:02:09 ] WARNING: KS-noise-ratio=1.619965
+[ 03:02:11 ] WARNING: KS-noise-ratio=2.108340
+[ 03:02:14 ] WARNING: KS-noise-ratio=1.363463
+[ 03:02:18 ] WARNING: KS-noise-ratio=2.123326
+[ 03:02:20 ] WARNING: KS-noise-ratio=1.248669
+[ 03:02:23 ] WARNING: KS-noise-ratio=1.720858
+[ 03:02:25 ] WARNING: KS-noise-ratio=1.875039
+[ 03:02:28 ] WARNING: KS-noise-ratio=1.688179
+[ 03:08:58 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:08:58 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:08:58 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:09:04 ] WARNING: KS-noise-ratio=1.732188
+[ 03:09:10 ] WARNING: KS-noise-ratio=2.066180
+[ 03:09:15 ] WARNING: KS-noise-ratio=1.990375
+[ 03:09:20 ] WARNING: KS-noise-ratio=1.355991
+[ 03:09:26 ] WARNING: KS-noise-ratio=1.721040
+[ 03:09:31 ] WARNING: KS-noise-ratio=1.535062
+[ 03:09:36 ] WARNING: KS-noise-ratio=1.604387
+[ 03:09:42 ] WARNING: KS-noise-ratio=1.849732
+[ 03:09:47 ] WARNING: KS-noise-ratio=1.770214
+[ 03:10:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:10:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:10:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:10:34 ] WARNING: KS-noise-ratio=1.442745
+[ 03:10:39 ] WARNING: KS-noise-ratio=1.867633
+[ 03:10:44 ] WARNING: KS-noise-ratio=1.888917
+[ 03:10:50 ] WARNING: KS-noise-ratio=1.890823
+[ 03:10:55 ] WARNING: KS-noise-ratio=1.487838
+[ 03:11:00 ] WARNING: KS-noise-ratio=1.389007
+[ 03:11:06 ] WARNING: KS-noise-ratio=2.250202
+[ 03:11:11 ] WARNING: KS-noise-ratio=1.880423
+[ 03:11:16 ] WARNING: KS-noise-ratio=1.501352
+[ 03:12:08 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:12:08 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:12:08 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:12:14 ] WARNING: KS-noise-ratio=1.581757
+[ 03:12:20 ] WARNING: KS-noise-ratio=2.007610
+[ 03:12:25 ] WARNING: KS-noise-ratio=1.637149
+[ 03:12:30 ] WARNING: KS-noise-ratio=1.677211
+[ 03:12:35 ] WARNING: KS-noise-ratio=1.880135
+[ 03:12:41 ] WARNING: KS-noise-ratio=1.812072
+[ 03:12:46 ] WARNING: KS-noise-ratio=1.710099
+[ 03:12:54 ] WARNING: KS-noise-ratio=2.084483
+[ 03:13:01 ] WARNING: KS-noise-ratio=1.707921
+[ 03:13:36 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:13:36 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:13:36 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:13:42 ] WARNING: KS-noise-ratio=1.325739
+[ 03:13:47 ] WARNING: KS-noise-ratio=1.800134
+[ 03:13:52 ] WARNING: KS-noise-ratio=1.319793
+[ 03:13:57 ] WARNING: KS-noise-ratio=1.456564
+[ 03:14:02 ] WARNING: KS-noise-ratio=1.535302
+[ 03:14:08 ] WARNING: KS-noise-ratio=1.273981
+[ 03:14:13 ] WARNING: KS-noise-ratio=1.922661
+[ 03:14:18 ] WARNING: KS-noise-ratio=1.774704
+[ 03:14:23 ] WARNING: KS-noise-ratio=1.545553
+[ 03:14:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:14:49 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:14:49 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 03:14:54 ] WARNING: KS-noise-ratio=1.881273
+[ 03:14:59 ] WARNING: KS-noise-ratio=1.711144
+[ 03:15:04 ] WARNING: KS-noise-ratio=1.680600
+[ 03:15:09 ] WARNING: KS-noise-ratio=1.360437
+[ 03:15:15 ] WARNING: KS-noise-ratio=1.688868
+[ 03:15:20 ] WARNING: KS-noise-ratio=3.103176
+[ 03:15:25 ] WARNING: KS-noise-ratio=1.414701
+[ 03:15:30 ] WARNING: KS-noise-ratio=1.569342
+[ 03:15:35 ] WARNING: KS-noise-ratio=1.636491
+[ 02:19:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:19:46 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:19:46 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:22:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:22:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:22:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:24:09 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:24:09 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:24:09 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:00:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:07:48 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:13:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:32 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:17:34 ] WARNING: KS-noise-ratio=5.183038
+[ 04:20:28 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:20:28 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:21:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:21:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:22:00 ] WARNING: KS-noise-ratio=8.103305
+[ 04:23:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:23:05 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:23:05 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 04:23:10 ] WARNING: KS-noise-ratio=2.960187
+[ 04:23:11 ] WARNING: KS-noise-ratio=1.777912
+[ 09:21:36 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:21:37 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:21:37 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:21:42 ] WARNING: KS-noise-ratio=3.432384
+[ 09:21:42 ] WARNING: KS-noise-ratio=1.792893
+[ 09:24:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:24:50 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:24:50 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:24:55 ] WARNING: KS-noise-ratio=3.541217
+[ 09:24:55 ] WARNING: KS-noise-ratio=1.761510
+[ 09:29:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:29:16 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:29:16 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:29:21 ] WARNING: KS-noise-ratio=3.450462
+[ 09:29:21 ] WARNING: KS-noise-ratio=2.002094
+[ 09:30:51 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:30:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:30:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:30:56 ] WARNING: KS-noise-ratio=4.520507
+[ 09:30:56 ] WARNING: KS-noise-ratio=1.861855
+[ 09:33:39 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:33:39 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:33:39 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:33:44 ] WARNING: KS-noise-ratio=3.314484
+[ 09:33:44 ] WARNING: KS-noise-ratio=1.724545
+[ 09:35:26 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:35:26 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:35:26 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:35:31 ] WARNING: KS-noise-ratio=3.402391
+[ 09:35:31 ] WARNING: KS-noise-ratio=1.943663
+[ 09:39:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:39:17 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:39:17 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:39:22 ] WARNING: KS-noise-ratio=3.451021
+[ 09:39:22 ] WARNING: KS-noise-ratio=2.017238
+[ 09:40:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:40:56 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:40:56 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:41:01 ] WARNING: KS-noise-ratio=3.261690
+[ 09:41:01 ] WARNING: KS-noise-ratio=1.668225
+[ 09:45:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:45:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:45:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:45:10 ] WARNING: KS-noise-ratio=3.205091
+[ 09:45:11 ] WARNING: KS-noise-ratio=1.724821
+[ 09:45:11 ] WARNING: KS-noise-ratio=3.966902
+[ 09:45:11 ] WARNING: KS-noise-ratio=1.892366
+[ 09:47:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:47:12 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:47:12 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:47:17 ] WARNING: KS-noise-ratio=2.788079
+[ 09:47:17 ] WARNING: KS-noise-ratio=1.479067
+[ 09:47:18 ] WARNING: KS-noise-ratio=3.265893
+[ 09:47:18 ] WARNING: KS-noise-ratio=1.488255
+[ 08:31:48 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:31:48 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:31:52 ] WARNING: KS-noise-ratio=4.524332
+[ 08:31:53 ] WARNING: KS-noise-ratio=2.918820
+[ 08:31:53 ] WARNING: KS-noise-ratio=3.488547
+[ 08:40:35 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:40:35 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:13 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:13 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:58:37 ] WARNING: KS-noise-ratio=3.243157
+[ 08:58:37 ] WARNING: KS-noise-ratio=1.691253
+[ 08:58:37 ] WARNING: KS-noise-ratio=2.671580
+[ 08:58:37 ] WARNING: KS-noise-ratio=2.025313
+[ 08:59:11 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:59:11 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:59:35 ] WARNING: KS-noise-ratio=2.445839
+[ 08:59:35 ] WARNING: KS-noise-ratio=1.725951
+[ 08:59:36 ] WARNING: KS-noise-ratio=3.723388
+[ 08:59:36 ] WARNING: KS-noise-ratio=2.034427
+[ 09:01:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:02 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:25 ] WARNING: KS-noise-ratio=3.589042
+[ 09:01:25 ] WARNING: KS-noise-ratio=2.209569
+[ 09:01:26 ] WARNING: KS-noise-ratio=3.165556
+[ 09:01:26 ] WARNING: KS-noise-ratio=2.331156
+[ 09:01:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:01:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:04:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:04:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:04:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:31 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:31 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:05:37 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:37 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:37 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-28.154309, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-69.137980, likely decryption error
+[ 09:05:38 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:38 ] WARNING: Ctxt::bringToSet called with capacity=-110.121652, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-26.255778, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:58 ] WARNING: Ctxt::bringToSet called with capacity=-67.300134, likely decryption error
+[ 09:05:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 09:05:59 ] WARNING: Ctxt::bringToSet called with capacity=-108.344490, likely decryption error
+[ 09:06:10 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:10 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:10 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:06:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:23:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:23:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 02:23:57 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:18:52 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:18:52 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:18:52 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:20:52 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:20:52 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:20:52 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:25:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:25:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:25:06 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:27:56 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:27:56 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:27:56 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:29:03 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:29:03 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:29:03 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:34:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 05:34:54 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 05:34:54 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:11:51 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:11:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:11:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:12:23 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:12:23 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:12:23 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:14:39 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:14:39 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:14:39 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:15:53 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:15:53 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:15:53 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:17:26 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:17:26 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:17:26 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:17:59 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:17:59 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:17:59 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:18:24 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:18:25 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:18:25 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:19:03 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:19:03 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:19:03 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:24:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:24:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:24:34 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:25:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:25:55 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:25:55 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 08:57:25 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:58:27 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:58:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:14 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 08:59:50 ] WARNING: noise bound exceeded in encryption
+[ 09:00:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:00:34 ] WARNING: noise bound exceeded in encryption
+[ 09:02:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:02:34 ] WARNING: noise bound exceeded in encryption
+[ 09:02:46 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:03:02 ] WARNING: noise bound exceeded in encryption
+[ 09:03:02 ] WARNING: KS-noise-ratio=5165.515750
+[ 09:03:02 ] WARNING: KS-noise-ratio=1.002501
+[ 09:03:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:04:04 ] WARNING: noise bound exceeded in encryption
+[ 09:04:04 ] WARNING: KS-noise-ratio=6833.510738
+[ 09:04:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:03 ] WARNING: noise bound exceeded in encryption
+[ 09:05:03 ] WARNING: KS-noise-ratio=5697.703622
+[ 09:05:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:35 ] WARNING: noise bound exceeded in encryption
+[ 09:05:35 ] WARNING: KS-noise-ratio=5248.823932
+[ 09:05:35 ] WARNING: KS-noise-ratio=1.058152
+[ 09:05:51 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:06:07 ] WARNING: noise bound exceeded in encryption
+[ 09:06:07 ] WARNING: KS-noise-ratio=5253.547145
+[ 09:06:07 ] WARNING: KS-noise-ratio=1.141965
+[ 09:07:24 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:07:24 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 09:07:29 ] WARNING: noise bound exceeded in encryption
+[ 09:07:29 ] WARNING: KS-noise-ratio=28727.017689
+[ 03:37:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:30 ] WARNING: KS-noise-ratio=59.733485
+[ 03:37:30 ] WARNING: KS-noise-ratio=1.301555
+[ 03:39:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:39:13 ] WARNING: KS-noise-ratio=64.141111
+[ 03:39:13 ] WARNING: KS-noise-ratio=1.109448
+[ 03:51:18 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:51:18 ] WARNING: KS-noise-ratio=1724.450029
+[ 03:51:18 ] WARNING: KS-noise-ratio=1.150511
+[ 03:51:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:51:49 ] WARNING: KS-noise-ratio=2178.549692
+[ 03:54:07 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:54:07 ] WARNING: KS-noise-ratio=1905.420832
+[ 03:55:15 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:55:15 ] WARNING: KS-noise-ratio=1879.312240
+[ 06:03:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:04:08 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:10:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:11:06 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:11:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:19:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:22:40 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:23:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:23:56 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:26:38 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 06:28:26 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:49:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:50:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:51:00 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:53:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:53:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:05:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:05:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:03 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:14:24 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:15:37 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:18:25 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:05:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:05:49 ] WARNING: KS-noise-ratio=2.502730
+[ 03:05:49 ] WARNING: KS-noise-ratio=2.356435
+[ 03:06:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:06:33 ] WARNING: KS-noise-ratio=2.595489
+[ 03:06:33 ] WARNING: KS-noise-ratio=2.197492
+[ 03:08:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:08:49 ] WARNING: KS-noise-ratio=2.030965
+[ 03:08:49 ] WARNING: KS-noise-ratio=1.902949
+[ 03:36:42 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:36:42 ] WARNING: KS-noise-ratio=2.185443
+[ 03:36:42 ] WARNING: KS-noise-ratio=2.057373
+[ 03:37:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:11 ] WARNING: KS-noise-ratio=2.438222
+[ 03:37:11 ] WARNING: KS-noise-ratio=2.718121
+[ 03:37:20 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:20 ] WARNING: KS-noise-ratio=2.007885
+[ 03:37:20 ] WARNING: KS-noise-ratio=1.906613
+[ 03:37:23 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:37:23 ] WARNING: KS-noise-ratio=2.368568
+[ 03:37:23 ] WARNING: KS-noise-ratio=2.055476
+[ 04:12:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:12:30 ] WARNING: KS-noise-ratio=2.144592
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.524525
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.155593
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.833621
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.155456
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.128509
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.669679
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.339565
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.630461
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.421534
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.343738
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.427857
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.364326
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.405053
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.880709
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.211793
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.214661
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.322766
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.711460
+[ 04:12:31 ] WARNING: KS-noise-ratio=1.999139
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.329717
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.384629
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.096276
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.428423
+[ 04:12:31 ] WARNING: KS-noise-ratio=2.375472
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.563515
+[ 04:12:32 ] WARNING: KS-noise-ratio=1.918764
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.197432
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.271157
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.003926
+[ 04:12:32 ] WARNING: KS-noise-ratio=1.769746
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.247164
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.311894
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.031324
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.127406
+[ 04:12:32 ] WARNING: KS-noise-ratio=2.457389
+[ 04:16:06 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.074089
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.265944
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.099388
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.886088
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.941309
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.151654
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.870029
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.739927
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.619106
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.336609
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.474180
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.713473
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.515682
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.532938
+[ 04:16:06 ] WARNING: KS-noise-ratio=2.174072
+[ 04:16:06 ] WARNING: KS-noise-ratio=1.964753
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.027444
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.030717
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.708479
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.719109
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.812787
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.994834
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.053952
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.291170
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.180265
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.064355
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.829690
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.247250
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.300658
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.269859
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.807557
+[ 04:16:07 ] WARNING: KS-noise-ratio=1.899371
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.063931
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.258877
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.234141
+[ 04:16:07 ] WARNING: KS-noise-ratio=2.355405
+[ 04:17:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.187130
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.646825
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.157398
+[ 04:17:47 ] WARNING: KS-noise-ratio=1.864427
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.394296
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.430456
+[ 04:17:47 ] WARNING: KS-noise-ratio=1.898434
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.019339
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.369684
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.429496
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.097955
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.161125
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.289634
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.501314
+[ 04:17:47 ] WARNING: KS-noise-ratio=2.016844
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.355318
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.896961
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.920830
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.768508
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.621690
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.944916
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.269211
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.146019
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.336648
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.168683
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.726411
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.027128
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.337985
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.041632
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.035628
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.613564
+[ 04:17:48 ] WARNING: KS-noise-ratio=1.573925
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.410235
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.319038
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.507232
+[ 04:17:48 ] WARNING: KS-noise-ratio=2.371470
+[ 04:17:55 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.687785
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.453882
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.824987
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.832963
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.299196
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.209322
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.122527
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.739132
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.075889
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.269266
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.554590
+[ 04:17:56 ] WARNING: KS-noise-ratio=3.000982
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.577300
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.107557
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.253545
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.909139
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.484829
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.844736
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.114084
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.960305
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.981954
+[ 04:17:56 ] WARNING: KS-noise-ratio=1.922263
+[ 04:17:56 ] WARNING: KS-noise-ratio=2.370312
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.336150
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.264920
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.097121
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.034198
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.186414
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.124029
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.298486
+[ 04:17:57 ] WARNING: KS-noise-ratio=1.768949
+[ 04:17:57 ] WARNING: KS-noise-ratio=1.869616
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.321626
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.558529
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.090061
+[ 04:17:57 ] WARNING: KS-noise-ratio=2.174937
+[ 04:18:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:18:47 ] WARNING: KS-noise-ratio=2.255893
+[ 04:18:47 ] WARNING: KS-noise-ratio=2.216040
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.889696
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.968736
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.233765
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.150442
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.689075
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.878137
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.505777
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.238238
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.646694
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.182030
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.421777
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.331056
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.237684
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.278757
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.123205
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.713948
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.775104
+[ 04:18:48 ] WARNING: KS-noise-ratio=1.689752
+[ 04:18:48 ] WARNING: KS-noise-ratio=2.058988
+[ 04:19:01 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.157646
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.876912
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.755853
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.897129
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.197999
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.045040
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.673572
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.132603
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.320903
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.187083
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.511657
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.654277
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.404832
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.540590
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.055330
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.420620
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.291235
+[ 04:19:01 ] WARNING: KS-noise-ratio=1.798551
+[ 04:19:01 ] WARNING: KS-noise-ratio=2.313147
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.945639
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.234694
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.223678
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.456884
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.307389
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.427370
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.103142
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.884553
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.124859
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.176904
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.336357
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.867237
+[ 04:19:02 ] WARNING: KS-noise-ratio=1.770078
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.445151
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.132774
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.168669
+[ 04:19:02 ] WARNING: KS-noise-ratio=2.641814
+[ 04:20:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.258071
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.201552
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.287888
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.107992
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.319771
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.010216
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.115482
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.820423
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.500179
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.425757
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.236702
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.570554
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.264723
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.535947
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.292853
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.904518
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.363193
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.250088
+[ 04:20:50 ] WARNING: KS-noise-ratio=1.963030
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.215024
+[ 04:20:50 ] WARNING: KS-noise-ratio=2.099890
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.322841
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.976577
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.269694
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.160228
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.464384
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.131837
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.317003
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.938093
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.962544
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.635774
+[ 04:20:51 ] WARNING: KS-noise-ratio=1.676504
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.182318
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.126292
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.016961
+[ 04:20:51 ] WARNING: KS-noise-ratio=2.139480
+[ 01:24:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:24:12 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:24:12 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:26:57 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:26:57 ] WARNING: KS-noise-ratio=2.179353
+[ 01:26:57 ] WARNING: KS-noise-ratio=2.889867
+[ 01:26:57 ] WARNING: KS-noise-ratio=1.962585
+[ 01:26:57 ] WARNING: KS-noise-ratio=2.032506
+[ 01:26:57 ] WARNING: KS-noise-ratio=2.431706
+[ 01:26:57 ] WARNING: KS-noise-ratio=2.298682
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.152617
+[ 01:26:58 ] WARNING: KS-noise-ratio=1.960359
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.201572
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.649139
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.341125
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.269719
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.337197
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.610961
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.102135
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.506223
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.098438
+[ 01:26:58 ] WARNING: KS-noise-ratio=1.976740
+[ 01:26:58 ] WARNING: KS-noise-ratio=1.769467
+[ 01:26:58 ] WARNING: KS-noise-ratio=1.862567
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.084520
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.176515
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.117418
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.426765
+[ 01:26:58 ] WARNING: KS-noise-ratio=3.162471
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.316621
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.093337
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.393806
+[ 01:26:58 ] WARNING: KS-noise-ratio=2.206380
+[ 01:26:58 ] WARNING: KS-noise-ratio=1.986616
+[ 01:26:59 ] WARNING: KS-noise-ratio=1.770374
+[ 01:26:59 ] WARNING: KS-noise-ratio=1.689724
+[ 01:26:59 ] WARNING: KS-noise-ratio=2.365571
+[ 01:26:59 ] WARNING: KS-noise-ratio=1.957785
+[ 01:26:59 ] WARNING: KS-noise-ratio=2.022452
+[ 01:26:59 ] WARNING: KS-noise-ratio=2.109514
+[ 01:28:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.161652
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.548240
+[ 01:28:05 ] WARNING: KS-noise-ratio=1.957900
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.201117
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.476004
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.121026
+[ 01:28:05 ] WARNING: KS-noise-ratio=1.864687
+[ 01:28:05 ] WARNING: KS-noise-ratio=1.706295
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.509924
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.375444
+[ 01:28:05 ] WARNING: KS-noise-ratio=3.127319
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.300479
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.420366
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.631826
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.205340
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.144080
+[ 01:28:05 ] WARNING: KS-noise-ratio=2.175254
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.973890
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.806473
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.781385
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.933559
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.991143
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.122390
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.305973
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.027873
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.516899
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.738299
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.103012
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.981732
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.071103
+[ 01:28:06 ] WARNING: KS-noise-ratio=1.710267
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.080898
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.302473
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.185930
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.026326
+[ 01:28:06 ] WARNING: KS-noise-ratio=2.247849
+[ 01:29:04 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.232565
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.206891
+[ 01:29:04 ] WARNING: KS-noise-ratio=1.930208
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.360909
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.487053
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.123808
+[ 01:29:04 ] WARNING: KS-noise-ratio=1.741192
+[ 01:29:04 ] WARNING: KS-noise-ratio=1.664717
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.349682
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.099711
+[ 01:29:04 ] WARNING: KS-noise-ratio=2.643705
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.011181
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.827224
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.361736
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.378472
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.184031
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.020563
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.022836
+[ 01:29:05 ] WARNING: KS-noise-ratio=1.789848
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.359255
+[ 01:29:05 ] WARNING: KS-noise-ratio=1.815938
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.132330
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.628959
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.103829
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.138663
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.414674
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.497810
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.041320
+[ 01:29:05 ] WARNING: KS-noise-ratio=2.061424
+[ 01:29:06 ] WARNING: KS-noise-ratio=2.360320
+[ 01:29:06 ] WARNING: KS-noise-ratio=1.764696
+[ 01:29:06 ] WARNING: KS-noise-ratio=1.832858
+[ 01:29:06 ] WARNING: KS-noise-ratio=2.135775
+[ 01:29:06 ] WARNING: KS-noise-ratio=2.297891
+[ 01:29:06 ] WARNING: KS-noise-ratio=2.227045
+[ 01:29:06 ] WARNING: KS-noise-ratio=1.917534
+[ 01:29:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:29:34 ] WARNING: KS-noise-ratio=2.227962
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.146131
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.986403
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.880172
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.331933
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.183832
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.727796
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.820934
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.583852
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.482588
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.365032
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.407879
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.431666
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.348070
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.092100
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.124455
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.950104
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.808293
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.988182
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.179377
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.173318
+[ 01:29:35 ] WARNING: KS-noise-ratio=1.953779
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.613940
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.458077
+[ 01:29:35 ] WARNING: KS-noise-ratio=2.046161
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.103794
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.366011
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.229582
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.383231
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.461858
+[ 01:29:36 ] WARNING: KS-noise-ratio=1.892575
+[ 01:29:36 ] WARNING: KS-noise-ratio=1.987994
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.106102
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.491059
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.406034
+[ 01:29:36 ] WARNING: KS-noise-ratio=2.406733
+[ 01:29:43 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.424027
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.781379
+[ 01:29:44 ] WARNING: KS-noise-ratio=1.840258
+[ 01:29:44 ] WARNING: KS-noise-ratio=1.980101
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.246746
+[ 01:29:44 ] WARNING: KS-noise-ratio=1.953228
+[ 01:29:44 ] WARNING: KS-noise-ratio=1.742473
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.043549
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.448552
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.342083
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.354204
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.407709
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.560987
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.361334
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.300937
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.037945
+[ 01:29:44 ] WARNING: KS-noise-ratio=1.985191
+[ 01:29:44 ] WARNING: KS-noise-ratio=2.135528
+[ 01:29:45 ] WARNING: KS-noise-ratio=1.910458
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.044235
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.128555
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.017839
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.105225
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.372277
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.527842
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.209451
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.255793
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.010046
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.294038
+[ 01:29:45 ] WARNING: KS-noise-ratio=1.872200
+[ 01:29:45 ] WARNING: KS-noise-ratio=1.846963
+[ 01:29:45 ] WARNING: KS-noise-ratio=1.701506
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.015358
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.232835
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.227567
+[ 01:29:45 ] WARNING: KS-noise-ratio=2.041882
+[ 01:35:19 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.053413
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.974341
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.265058
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.876806
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.127256
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.271750
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.705192
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.826399
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.493250
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.299353
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.666192
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.289432
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.642183
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.545112
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.349897
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.006987
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.201738
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.082715
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.839266
+[ 01:35:20 ] WARNING: KS-noise-ratio=1.763777
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.527403
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.175634
+[ 01:35:20 ] WARNING: KS-noise-ratio=2.197813
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.244463
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.456294
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.219017
+[ 01:35:21 ] WARNING: KS-noise-ratio=1.886084
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.029287
+[ 01:35:21 ] WARNING: KS-noise-ratio=1.895836
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.134015
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.058694
+[ 01:35:21 ] WARNING: KS-noise-ratio=1.990463
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.238674
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.125472
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.022700
+[ 01:35:21 ] WARNING: KS-noise-ratio=2.148810
+[ 01:35:21 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:35:21 ] WARNING: Ctxt::bringToSet called with capacity=-59.240778, likely decryption error
+[ 01:35:21 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:35:21 ] WARNING: Ctxt::bringToSet called with capacity=-59.240778, likely decryption error
+[ 01:35:21 ] WARNING: Ctxt::bringToSet called with capacity=-59.240778, likely decryption error
+[ 01:36:04 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:36:04 ] WARNING: KS-noise-ratio=2.115003
+[ 01:36:04 ] WARNING: KS-noise-ratio=2.183707
+[ 01:36:04 ] WARNING: KS-noise-ratio=2.035870
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.993794
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.841007
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.373354
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.819783
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.982842
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.222978
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.063058
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.484489
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.522729
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.409790
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.330250
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.275851
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.469405
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.291192
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.026370
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.834940
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.832982
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.255355
+[ 01:36:05 ] WARNING: KS-noise-ratio=1.883998
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.068266
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.435455
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.021900
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.486681
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.148032
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.175539
+[ 01:36:05 ] WARNING: KS-noise-ratio=2.174245
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.354390
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.081091
+[ 01:36:06 ] WARNING: KS-noise-ratio=1.815186
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.147244
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.089270
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.030306
+[ 01:36:06 ] WARNING: KS-noise-ratio=2.387515
+[ 01:36:06 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:36:06 ] WARNING: Ctxt::bringToSet called with capacity=-59.135147, likely decryption error
+[ 01:36:06 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:36:06 ] WARNING: Ctxt::bringToSet called with capacity=-59.135147, likely decryption error
+[ 01:36:06 ] WARNING: Ctxt::bringToSet called with capacity=-59.135147, likely decryption error
+[ 01:39:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.846416
+[ 01:39:34 ] WARNING: KS-noise-ratio=3.042358
+[ 01:39:34 ] WARNING: KS-noise-ratio=1.884883
+[ 01:39:34 ] WARNING: KS-noise-ratio=1.785686
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.093674
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.499006
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.359108
+[ 01:39:34 ] WARNING: KS-noise-ratio=1.774481
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.433161
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.227863
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.411963
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.318670
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.551013
+[ 01:39:34 ] WARNING: KS-noise-ratio=2.518393
+[ 01:39:34 ] WARNING: KS-noise-ratio=1.998696
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.143302
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.004261
+[ 01:39:35 ] WARNING: KS-noise-ratio=1.926871
+[ 01:39:35 ] WARNING: KS-noise-ratio=1.952171
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.239347
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.346363
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.284342
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.049628
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.505713
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.208569
+[ 01:39:35 ] WARNING: KS-noise-ratio=1.866681
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.379626
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.519353
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.406548
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.343219
+[ 01:39:35 ] WARNING: KS-noise-ratio=1.667970
+[ 01:39:35 ] WARNING: KS-noise-ratio=1.912198
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.562929
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.508288
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.440405
+[ 01:39:35 ] WARNING: KS-noise-ratio=2.335779
+[ 01:39:35 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:35 ] WARNING: Ctxt::bringToSet called with capacity=-59.221884, likely decryption error
+[ 01:39:35 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:35 ] WARNING: Ctxt::bringToSet called with capacity=-59.221884, likely decryption error
+[ 01:39:35 ] WARNING: Ctxt::bringToSet called with capacity=-59.221884, likely decryption error
+[ 01:39:36 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-186.902672, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-186.902672, likely decryption error
+[ 01:39:36 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-186.902672, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-442.264248, likely decryption error
+[ 01:39:36 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-442.264248, likely decryption error
+[ 01:39:36 ] WARNING: Ctxt::bringToSet called with capacity=-442.264248, likely decryption error
+[ 01:39:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:39:50 ] WARNING: KS-noise-ratio=2.699033
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.263624
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.235587
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.920327
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.154476
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.132825
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.780237
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.441530
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.161593
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.106993
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.410839
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.540078
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.398708
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.357621
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.958398
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.128675
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.737439
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.991995
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.786016
+[ 01:39:51 ] WARNING: KS-noise-ratio=1.996815
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.061771
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.176418
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.092255
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.108461
+[ 01:39:51 ] WARNING: KS-noise-ratio=2.264438
+[ 01:39:52 ] WARNING: KS-noise-ratio=1.992147
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.392018
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.489443
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.347249
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.314928
+[ 01:39:52 ] WARNING: KS-noise-ratio=1.853431
+[ 01:39:52 ] WARNING: KS-noise-ratio=1.650188
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.540264
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.548556
+[ 01:39:52 ] WARNING: KS-noise-ratio=2.050790
+[ 01:39:52 ] WARNING: KS-noise-ratio=1.939971
+[ 01:39:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-59.220478, likely decryption error
+[ 01:39:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-59.220478, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-59.220478, likely decryption error
+[ 01:39:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-186.899860, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-186.899860, likely decryption error
+[ 01:39:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-186.899860, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-442.258625, likely decryption error
+[ 01:39:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-442.258625, likely decryption error
+[ 01:39:52 ] WARNING: Ctxt::bringToSet called with capacity=-442.258625, likely decryption error
+[ 01:41:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:41:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:41:51 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:43:41 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:43:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:43:42 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:50:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:50:47 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:50:47 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:52:22 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:52:23 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:52:23 ] WARNING: CheckPrimes: non-FFT prime in smallPrimes
+[ 01:53:56 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:53:56 ] WARNING: KS-noise-ratio=2.403210
+[ 01:53:56 ] WARNING: KS-noise-ratio=2.170004
+[ 01:53:56 ] WARNING: KS-noise-ratio=2.328287
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.760513
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.340479
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.073281
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.541248
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.770275
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.403929
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.035950
+[ 01:53:57 ] WARNING: KS-noise-ratio=3.108839
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.284201
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.507674
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.086768
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.806095
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.173030
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.981542
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.298558
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.901339
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.927141
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.314127
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.054138
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.199471
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.192350
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.333097
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.224647
+[ 01:53:57 ] WARNING: KS-noise-ratio=1.882744
+[ 01:53:57 ] WARNING: KS-noise-ratio=2.193334
+[ 01:53:58 ] WARNING: KS-noise-ratio=2.301180
+[ 01:53:58 ] WARNING: KS-noise-ratio=2.381940
+[ 01:53:58 ] WARNING: KS-noise-ratio=1.795311
+[ 01:53:58 ] WARNING: KS-noise-ratio=1.902437
+[ 01:53:58 ] WARNING: KS-noise-ratio=2.272581
+[ 01:53:58 ] WARNING: KS-noise-ratio=1.957513
+[ 01:53:58 ] WARNING: KS-noise-ratio=2.355791
+[ 01:53:58 ] WARNING: KS-noise-ratio=1.881280
+[ 01:53:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-59.221409, likely decryption error
+[ 01:53:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-59.221409, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-59.221409, likely decryption error
+[ 01:53:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-186.901722, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-186.901722, likely decryption error
+[ 01:53:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-186.901722, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-442.262349, likely decryption error
+[ 01:53:58 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-442.262349, likely decryption error
+[ 01:53:58 ] WARNING: Ctxt::bringToSet called with capacity=-442.262349, likely decryption error
+[ 14:40:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:40:16 ] WARNING: Ctxt::bringToSet called with capacity=-5.456973, likely decryption error
+[ 14:40:16 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:40:16 ] WARNING: Ctxt::bringToSet called with capacity=-25.288544, likely decryption error
+[ 14:40:33 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:46:17 ] WARNING: Ctxt::bringToSet called with capacity=-15.595154, likely decryption error
+[ 14:46:17 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:46:17 ] WARNING: Ctxt::bringToSet called with capacity=-38.909816, likely decryption error
+[ 14:46:29 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:51:59 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:52:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:52:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:52:46 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:54:34 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:55:38 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:04:10 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:04:52 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:05:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:06:23 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:07:05 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:07:50 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:08:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:08:33 ] WARNING: Ctxt::bringToSet called with capacity=-19.661322, likely decryption error
+[ 15:08:34 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:08:34 ] WARNING: Ctxt::bringToSet called with capacity=-44.159393, likely decryption error
+[ 15:10:48 ] WARNING: ctxtPrimeSize: non-optimal targetSize

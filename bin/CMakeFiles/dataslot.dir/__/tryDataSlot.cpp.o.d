@@ -1,4 +1,4 @@
-CMakeFiles/dataslot.dir/tryDataSlot.cpp.o: \
+bin/CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o: \
  /home/ubuntu/benchmark/tryDataSlot.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -243,6 +243,7 @@ CMakeFiles/dataslot.dir/tryDataSlot.cpp.o: \
  /home/ubuntu/helib_install/helib_pack/include/NTL/vec_ZZ_p.h \
  /home/ubuntu/helib_install/helib_pack/include/NTL/mat_ZZ_p.h \
  /home/ubuntu/helib_install/helib_pack/include/NTL/vec_vec_ZZ_p.h \
+ /home/ubuntu/benchmark/rmfe.cpp \
  /home/ubuntu/helib_install/helib_pack/include/helib/helib.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/version.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/DoubleCRT.h \
@@ -349,4 +350,5 @@ CMakeFiles/dataslot.dir/tryDataSlot.cpp.o: \
  /home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/PolyMod.h \
  /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h \
- /home/ubuntu/benchmark/rmfe.cpp
+ /home/ubuntu/benchmark/utils/common.cpp \
+ /home/ubuntu/benchmark/utils/time.cpp

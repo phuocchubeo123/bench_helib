@@ -1,22 +1,27 @@
 ## In this Sage code, I will try to create RMFE with the following parameters
-## Prime plaintext p = 31
-## Polynomial degree m = 1261
-## One slot has d = 48
-## Degree in = 15
-## Degree out = 29
+## Prime plaintext p
+## Polynomial degree m
+## One slot has d
+## Degree in
+## Degree out
 
-p = 31
-d = 48
-degree_in = 15
+p = 257
+d = 16
+degree_in = 8
 degree_out = 2*degree_in - 1
 
 F.<a> = FiniteField(p^d)
-R = PolynomialRing(F, 'x')
+Zp = Integers(p)
+R.<x> = PolynomialRing(Zp)
 
-## A little note on RMFE. We will tend to choose the evaluation points to be roots of simple equations.
-## For example if q = 5, choosing \alpha = [1, 4], they will be roots of x^2-1.
-## That means the trasformation will be: 1 -> 1, a -> a, a^2 -> 1.
-## This will make life much easier, but there maybe more efficient transformations, which yield sparse q-linearized matrices.
+## List out all evaluation points:
+evaluation_points = [Zp(i) for i in range(degree_in)]
+## Compute the polynomial that takes all evaluation points as root
+poly = Zp(1)
+print(poly)
+for i in range(degree_in):
+    poly = poly * (x - evaluation_points[i])
+    
 
 ## Create basis of the out field. For now keep it simple 1, a, a^2, ...
 basis_list = []
@@ -34,25 +39,28 @@ for i in range(degree_out):
 moore = matrix(moore_list)
 moore_inverse = moore.inverse_of_unit()
 
-linear_trans_list = []
-for i in range(degree_in):
-    linear_trans_list.append([0 for i in range(degree_out)])
-    linear_trans_list[-1][i] = 1
 
-for i in range(degree_in, degree_out):
-    linear_trans_list.append([0 for i in range(degree_out)])
-    linear_trans_list[-1][i-degree_in] = 1
-    
+## Create the recode linear transformation, which is basically reducing mod poly
+
+powers_reduced = [x^i % poly for i in range(degree_out)]
+print('powers_reduced:')
+for uu in powers_reduced:
+    print(uu)
+
+linear_trans_list = []
+
+for i in range(degree_out):
+    coefficients = powers_reduced[i].list()
+    linear_trans_list.append(coefficients + [0 for j in range(degree_out - len(coefficients))])
+
+
 linear_trans = matrix(linear_trans_list)
 
+final_transformation =  (linear_trans * basis).transpose() * moore_inverse
 
-final_transformation = (linear_trans * basis).transpose() * moore_inverse
-#print(final_transformation.transpose())
-
+print('Final q-linearized transformation coefficients')
 for i in final_transformation[0]:
-    #print(i)
-    i_list = i.list()
-    print(' '.join(list(map(str, i_list))))
+    print(i)
 
 def q_linearized(u):
     ## To implement this in FIMD, we will try to use Patterson-Stockmeyer trick but for q-linearized matrix
@@ -63,5 +71,12 @@ def q_linearized(u):
 
 
 # Testing if the q-linearized transformation is correct
-u = a^18
+u = a^9
 print(q_linearized(u))
+
+
+print()
+print()
+print('TO COPY PASTE INTO PARAMS FILE')
+for i in final_transformation[0]:
+    print(' '.join(list(map(str, i.list()))))

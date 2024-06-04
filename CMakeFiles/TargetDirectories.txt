@@ -1,4 +1,7 @@
-/home/ubuntu/benchmark/CMakeFiles/bench.dir
-/home/ubuntu/benchmark/CMakeFiles/dataslot.dir
 /home/ubuntu/benchmark/CMakeFiles/edit_cache.dir
 /home/ubuntu/benchmark/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/benchmark/bin/CMakeFiles/bench.dir
+/home/ubuntu/benchmark/bin/CMakeFiles/dataslot.dir
+/home/ubuntu/benchmark/bin/CMakeFiles/find_params.dir
+/home/ubuntu/benchmark/bin/CMakeFiles/edit_cache.dir
+/home/ubuntu/benchmark/bin/CMakeFiles/rebuild_cache.dir
