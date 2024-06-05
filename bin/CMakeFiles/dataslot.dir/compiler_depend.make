@@ -411,9 +411,13 @@ bin/CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o: tryDataSlot.cpp \
   /home/ubuntu/helib_install/helib_pack/include/helib/Ptxt.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/PolyMod.h \
   /home/ubuntu/helib_install/helib_pack/include/helib/PolyModRing.h \
-  utils/common.cpp \
-  utils/time.cpp
+  utils/common.h \
+  utils/timeUtil.h
 
+
+utils/timeUtil.h:
+
+utils/common.h:
 
 /usr/include/c++/11/bits/quoted_string.h:
 
@@ -576,8 +580,6 @@ bin/CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o: tryDataSlot.cpp \
 /home/ubuntu/helib_install/helib_pack/include/NTL/vec_vec_lzz_p.h:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/mat_lzz_p.h:
-
-utils/common.cpp:
 
 /home/ubuntu/helib_install/helib_pack/include/NTL/Lazy.h:
 
@@ -760,8 +762,6 @@ rmfe.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-utils/time.cpp:
 
 /usr/include/c++/11/complex:
 

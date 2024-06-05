@@ -93,6 +93,8 @@ dataslot_EXTERNAL_OBJECTS =
 bin/dataslot: bin/CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o
 bin/dataslot: bin/CMakeFiles/dataslot.dir/build.make
 bin/dataslot: /home/ubuntu/helib_install/helib_pack/lib/libhelib.a
+bin/dataslot: libfimd.a
+bin/dataslot: /home/ubuntu/helib_install/helib_pack/lib/libhelib.a
 bin/dataslot: /home/ubuntu/helib_install/helib_pack/lib/libntl.so
 bin/dataslot: /home/ubuntu/helib_install/helib_pack/lib/libgmp.so
 bin/dataslot: bin/CMakeFiles/dataslot.dir/link.txt

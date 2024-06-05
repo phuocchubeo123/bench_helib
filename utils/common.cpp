@@ -1,6 +1,6 @@
-#include<helib/helib.h>
+#include "common.h"
 
-inline long estimateCtxtSize(const helib::Context& context, long offset)
+long estimateCtxtSize(const helib::Context& context, long offset)
 {
   // Return in bytes.
 

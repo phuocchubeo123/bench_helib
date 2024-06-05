@@ -2,8 +2,8 @@
 #include <vector>
 #include <helib/helib.h>
 
-#include "utils/common.cpp"
-#include "utils/time.cpp"
+#include "utils/common.h"
+#include "utils/timeUtil.h"
 
 using namespace std;
 

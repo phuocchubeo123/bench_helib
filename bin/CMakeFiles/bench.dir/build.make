@@ -93,6 +93,8 @@ bench_EXTERNAL_OBJECTS =
 bin/bench: bin/CMakeFiles/bench.dir/__/bench.cpp.o
 bin/bench: bin/CMakeFiles/bench.dir/build.make
 bin/bench: /home/ubuntu/helib_install/helib_pack/lib/libhelib.a
+bin/bench: libfimd.a
+bin/bench: /home/ubuntu/helib_install/helib_pack/lib/libhelib.a
 bin/bench: /home/ubuntu/helib_install/helib_pack/lib/libntl.so
 bin/bench: /home/ubuntu/helib_install/helib_pack/lib/libgmp.so
 bin/bench: bin/CMakeFiles/bench.dir/link.txt
