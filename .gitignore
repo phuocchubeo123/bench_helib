@@ -1,0 +1,9 @@
+CMakeFiles/
+a.out
+rmfe
+libfimd.a
+.cache/
+utils/CMakeFiles/
+utils/cmake_install.cmake
+bin/
+.vscode/

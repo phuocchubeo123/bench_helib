@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fimd.dir/fimd/fimd.cpp.o"
+  "CMakeFiles/fimd.dir/fimd/fimd.cpp.o.d"
   "CMakeFiles/fimd.dir/utils/common.cpp.o"
   "CMakeFiles/fimd.dir/utils/common.cpp.o.d"
   "CMakeFiles/fimd.dir/utils/timeUtil.cpp.o"

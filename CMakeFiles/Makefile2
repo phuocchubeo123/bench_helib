@@ -65,17 +65,20 @@ CMAKE_BINARY_DIR = /home/ubuntu/benchmark
 # The main recursive "all" target.
 all: CMakeFiles/fimd.dir/all
 all: utils/all
+all: fimd/all
 all: bin/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: utils/preinstall
+preinstall: fimd/preinstall
 preinstall: bin/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/fimd.dir/clean
 clean: utils/clean
+clean: fimd/clean
 clean: bin/clean
 .PHONY : clean
 
@@ -99,6 +102,21 @@ bin/clean: bin/CMakeFiles/find_params.dir/clean
 .PHONY : bin/clean
 
 #=============================================================================
+# Directory level rules for directory fimd
+
+# Recursive "all" directory target.
+fimd/all:
+.PHONY : fimd/all
+
+# Recursive "preinstall" directory target.
+fimd/preinstall:
+.PHONY : fimd/preinstall
+
+# Recursive "clean" directory target.
+fimd/clean:
+.PHONY : fimd/clean
+
+#=============================================================================
 # Directory level rules for directory utils
 
 # Recursive "all" directory target.
@@ -120,12 +138,12 @@ utils/clean:
 CMakeFiles/fimd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fimd.dir/build.make CMakeFiles/fimd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fimd.dir/build.make CMakeFiles/fimd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/benchmark/CMakeFiles --progress-num=5,6,7 "Built target fimd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/benchmark/CMakeFiles --progress-num=5,6,7,8 "Built target fimd"
 .PHONY : CMakeFiles/fimd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fimd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fimd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 0
 .PHONY : CMakeFiles/fimd.dir/rule
@@ -151,7 +169,7 @@ bin/CMakeFiles/bench.dir/all: CMakeFiles/fimd.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/bench.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/bench.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 0
 .PHONY : bin/CMakeFiles/bench.dir/rule
@@ -177,7 +195,7 @@ bin/CMakeFiles/dataslot.dir/all: CMakeFiles/fimd.dir/all
 
 # Build rule for subdir invocation for target.
 bin/CMakeFiles/dataslot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin/CMakeFiles/dataslot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/benchmark/CMakeFiles 0
 .PHONY : bin/CMakeFiles/dataslot.dir/rule
@@ -198,7 +216,7 @@ bin/CMakeFiles/dataslot.dir/clean:
 bin/CMakeFiles/find_params.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/find_params.dir/build.make bin/CMakeFiles/find_params.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/find_params.dir/build.make bin/CMakeFiles/find_params.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/benchmark/CMakeFiles --progress-num=8,9 "Built target find_params"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/benchmark/CMakeFiles --progress-num=9,10 "Built target find_params"
 .PHONY : bin/CMakeFiles/find_params.dir/all
 
 # Build rule for subdir invocation for target.

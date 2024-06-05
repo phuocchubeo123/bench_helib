@@ -1,2 +1,2 @@
-/usr/bin/ar qc libfimd.a CMakeFiles/fimd.dir/utils/common.cpp.o CMakeFiles/fimd.dir/utils/timeUtil.cpp.o
+/usr/bin/ar qc libfimd.a CMakeFiles/fimd.dir/utils/common.cpp.o CMakeFiles/fimd.dir/utils/timeUtil.cpp.o CMakeFiles/fimd.dir/fimd/fimd.cpp.o
 /usr/bin/ranlib libfimd.a

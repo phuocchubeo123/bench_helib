@@ -1,6 +1,8 @@
 #include "common.h"
 
-long estimateCtxtSize(const helib::Context& context, long offset)
+using namespace std;
+
+long estimateCtxtSize(const helib::Context &context, long offset)
 {
   // Return in bytes.
 
@@ -69,4 +71,63 @@ long estimateCtxtSize(const helib::Context& context, long offset)
   size += 4;
 
   return size + offset;
+}
+
+// Function to compute the modular inverse of a under modulo p
+// Uses Fermat's little theorem: a^(p-1) ≡ 1 (mod p), hence a^(p-2) ≡ a^(-1) (mod p)
+long modInverse(long a, long p)
+{
+  long result = 1;
+  long exponent = p - 2; // Fermat's little theorem exponent
+
+  while (exponent > 0)
+  {
+    if (exponent % 2 == 1)
+    {
+      result = (result * a) % p;
+    }
+    a = (a * a) % p;
+    exponent /= 2;
+  }
+  return result;
+}
+
+vector<long> generate_bit_compare_polynomial(long d, long p)
+{
+  /*
+  Generating the evaluate polynomial
+  */
+
+  vector<long> ans;
+  ans.push_back(1);
+
+  for (int i = 0; i < d; i++)
+  {
+    vector<long> tmp = ans;
+    for (long j = 0; j < ans.size(); j++)
+    {
+      ans[j] = p - (ans[j] * i) % p;
+      if (ans[j] == p)
+        ans[j] = 0;
+    }
+    ans.push_back(0);
+    for (long j = 0; j < tmp.size(); j++)
+    {
+      (ans[j + 1] += tmp[j]) %= p;
+    }
+  }
+
+  int denom = 1;
+  for (long i = 1; i <= d; i++)
+    (denom *= i) %= p;
+  denom = modInverse(denom, p);
+
+  cout << "Before invert\n";
+  for (long x : ans)
+    cout << x << " ";
+  cout << "\n";
+
+  for (long i = 0; i < ans.size(); i++)
+    (ans[i] *= denom) %= p;
+  return ans;
 }

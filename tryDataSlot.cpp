@@ -2,54 +2,19 @@
 #include <random>
 #include <fstream>
 
-
 #include <NTL/ZZX.h>
-#include "rmfe.cpp"
+#include "fimd/fimd.h"
+#include "utils/common.h"
+#include "utils/timeUtil.h"
 
 using namespace std;
 
-
 mt19937 mt(5);
 
-
-
-vector<long> generate_bit_compare_polynomial(long d, long p){
-  /* 
-  Generating the evaluate polynomial
-  */
-
-  vector<long> ans;
-  ans.push_back(1);
-
-  for (int i = 0; i < d; i++){
-    vector<long> tmp = ans;
-    for (long j = 0; j < ans.size(); j++){
-      ans[j] = p - (ans[j] * i) % p;
-      if (ans[j] == p) ans[j] = 0;
-    }
-    ans.push_back(0);
-    for (long j = 0; j < tmp.size(); j++){
-      (ans[j+1] += tmp[j]) %= p;
-    }
-  }
-
-  int denom = 1;
-  for (long i = 1; i <= d; i++) (denom *= i) %= p;
-  denom = modInverse(denom, p);
-
-  cout << "Before invert\n";
-  for (long x: ans) cout << x << " ";
-  cout << "\n";
-
-  for (long i = 0; i < ans.size(); i++) (ans[i] *= denom) %= p;
-  return ans;
-}
-
-
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
   // I want to dedicate this experiment solely on Modulo p = 31 first.
-  // What's next to do: 
+  // What's next to do:
   // 1. Find 15 evaluation points that satisfy x^15 - 1 = 0 (done)
   // 2. Find out the appropriate RMFE
   // 3. Pack them into slot
@@ -102,10 +67,10 @@ int main(int argc, char* argv[])
 
   // Public key management
   // Set the secret key (upcast: SecKey is a subclass of PubKey)
-  const helib::PubKey& public_key = secret_key;
+  const helib::PubKey &public_key = secret_key;
 
   // Get the EncryptedArray of the context
-  const helib::EncryptedArray& ea = context.getEA();
+  const helib::EncryptedArray &ea = context.getEA();
 
   // Get the number of slot (phi(m))
   long nslots = ea.size();
@@ -117,56 +82,12 @@ int main(int argc, char* argv[])
   long one_slot = phi / nslots;
   cout << "Degree in one slot: " << one_slot << "\n";
 
-  /* Notable for generalization later*/
-  long one_packing = 8;
-
-  ////////////////////////////////////
-
-
-  /* 
-  Generating two sets with size equals to the number of slots (nslots * packing in one slot)
-  For ease, I will put the first 10 packs of both sets to have one common value, while the rest are random.
-  */
-
-  long sender[nslots][one_packing];
-  long receiver[nslots][one_packing];
-
-  for (int i = 0; i < 10; i++){
-    sender[i][0] = receiver[i][0] = mt();
-    for (int j = 1; j < one_packing; j++) sender[i][j] = mt();
-    for (int j = 1; j < one_packing; j++) receiver[i][j] = receiver[i][0];
-  }
-
-  for (int i = 10; i < nslots; i++){
-    receiver[i][0] = mt();
-    for (int j = 0; j < one_packing; j++){
-      sender[i][j] = mt();
-      receiver[i][j] = receiver[i][0];
-    }
-  }
+  // In degree and out degree for RMFE
+  long in_degree = 8;
+  long out_degree = 15;
 
   // The number of bits in an element
   long d = 18;
-
-
-  //////////////////////////
-
-
-
-  /*
-  Find 15 evaluation points mod 31 such that x^15 - 1 = 0
-  */
-
-  vector<long> evaluation_points;
-  for (long i = 0; i < one_packing; i++) evaluation_points.push_back(i);
-
-
-  /*
-  Generate Lagrange basis from evaluation points
-  This modifies the lagrange_basis variable in rmfe.cpp
-  */
-
-  generate_lagrange_basis(evaluation_points, p);
 
   /////////////////////////
 
@@ -175,7 +96,37 @@ int main(int argc, char* argv[])
   */
   helib::Ptxt<helib::BGV> dummy_ptxt(context);
   helib::Ctxt dummy_ctxt(public_key);
-  NTL::ZZX poly = dummy_ptxt[0].getData(); 
+  NTL::ZZX poly = dummy_ptxt[0].getData();
+
+
+  ////////////////////////////////////
+
+  /*
+  Generating two sets with size equals to the number of slots (nslots * packing in one slot)
+  For ease, I will put the first 10 packs of both sets to have one common value, while the rest are random.
+  */
+
+  long sender[nslots][in_degree];
+  long receiver[nslots][in_degree];
+
+  for (int i = 0; i < 10; i++)
+  {
+    sender[i][0] = receiver[i][0] = mt();
+    for (int j = 1; j < in_degree; j++)
+      sender[i][j] = mt();
+    for (int j = 1; j < in_degree; j++)
+      receiver[i][j] = receiver[i][0];
+  }
+
+  for (int i = 10; i < nslots; i++)
+  {
+    receiver[i][0] = mt();
+    for (int j = 0; j < in_degree; j++)
+    {
+      sender[i][j] = mt();
+      receiver[i][j] = receiver[i][0];
+    }
+  }
 
   //////////////////////////
 
@@ -183,29 +134,41 @@ int main(int argc, char* argv[])
   Read the q-linearized polynomial coefficients from the params file
   */
   ifstream param;
-  param.open("params/31_1261_15.txt");
+  param.open("params/257_4096_8.txt");
 
-  FIMD rmfe_operator;
+  FIMD rmfe_operator(p, in_degree, out_degree);
 
-  for (int i = 0; i < 29; i++){
-    for (long j = 0; j < one_slot; j++){
-      long coeff; param >> coeff;
+  for (int i = 0; i < out_degree; i++)
+  {
+    for (long j = 0; j < one_slot; j++)
+    {
+      long coeff;
+      param >> coeff;
       SetCoeff(poly, j, coeff);
     }
 
-    for (int j = 0; j < nslots; j++) dummy_ptxt[j] = poly;
+    for (int j = 0; j < nslots; j++)
+      dummy_ptxt[j] = poly;
     rmfe_operator.q_linearized_coeff.push_back(dummy_ptxt);
   }
 
-  for (int i = 0; i < 29; i++){
+  for (int i = 0; i < out_degree; i++)
+  {
     cout << rmfe_operator.q_linearized_coeff[i][0] << "\n";
   }
 
+  /*
+  Find evaluation points
+  */
+
+  vector<long> evaluation_points;
+  for (long i = 0; i < in_degree; i++)
+    evaluation_points.push_back(i);
+  rmfe_operator.set_evaluation_points(evaluation_points);
 
   ////////////////////////////
 
-
-  /* 
+  /*
   Packing receiver's elements into plaintexts and ciphertexts
   */
 
@@ -213,25 +176,20 @@ int main(int argc, char* argv[])
 
   cout << "Packing receiver's elements into ciphertexts...\n";
   TIME(
-  for (int bit = 0; bit < d; bit++){
-    for (int i = 0; i < nslots; i++){
-      vector<long> bits_to_pack;
-      for (int j = 0; j < one_packing; j++){
-        bits_to_pack.push_back((receiver[i][j] >> bit) & 1);
-      }
-      vector<long> corresponding_field_element = lagrange_interpolation(bits_to_pack, p);
-      for (long j = 0; j < corresponding_field_element.size(); j++){
-        SetCoeff(poly, j, corresponding_field_element[j]);
-      }
-      dummy_ptxt[i] = poly;
-    }
-    public_key.Encrypt(dummy_ctxt, dummy_ptxt);
-    cout << "Done encrypting\n";
-    cout << "The size of the ciphertext is: " << estimateCtxtSize(context, 1) << "\n";
-    receiver_ciphertexts.push_back(dummy_ctxt);
-  }
-  )
-
+      for (int bit = 0; bit < d; bit++) {
+        for (int i = 0; i < nslots; i++)
+        {
+          vector<long> bits_to_pack;
+          for (int j = 0; j < in_degree; j++)
+          {
+            bits_to_pack.push_back((receiver[i][j] >> bit) & 1);
+          }
+          rmfe_operator.encode(dummy_ptxt, bits_to_pack, i);
+        }
+        public_key.Encrypt(dummy_ctxt, dummy_ptxt);
+        cout << "Done encrypting\n";
+        receiver_ciphertexts.push_back(dummy_ctxt);
+      })
 
   /*
   Packing sender's elements into plaintexts
@@ -240,66 +198,80 @@ int main(int argc, char* argv[])
 
   cout << "Packing sender's elements into plaintexts...\n";
   TIME(
-  for (int bit = 0; bit < d; bit++){
-    for (int i = 0; i < nslots; i++){
-      vector<long> bits_to_pack;
-      for (int j = 0; j < one_packing; j++){
-        bits_to_pack.push_back((sender[i][j] >> bit) & 1);
-      }
-      vector<long> corresponding_field_element = lagrange_interpolation(bits_to_pack, p);
-      for (long j = 0; j < corresponding_field_element.size(); j++) SetCoeff(poly, j, corresponding_field_element[j]);
-      dummy_ptxt[i] = poly;
-    }
-    sender_plaintexts.push_back(dummy_ptxt);
-  }
-  )
+      for (int bit = 0; bit < d; bit++) {
+        for (int i = 0; i < nslots; i++)
+        {
+          vector<long> bits_to_pack;
+          for (int j = 0; j < in_degree; j++)
+          {
+            bits_to_pack.push_back((sender[i][j] >> bit) & 1);
+          }
+          rmfe_operator.encode(dummy_ptxt, bits_to_pack, i);
+        }
+        sender_plaintexts.push_back(dummy_ptxt);
+      })
 
   ////////////////////////
-
 
   // Preparing all zeros and all ones plaintexts
   helib::Ptxt<helib::BGV> all_ones_ptxt(context);
   vector<long> all_one_slot;
-  for (int i = 0; i < one_packing; i++) all_one_slot.push_back(1);
-  vector<long> all_one_coeff = lagrange_interpolation(all_one_slot, p);
-  for (long i = 0; i < one_packing; i++) SetCoeff(poly, i, all_one_coeff[i]);
-  for (int i = 0; i < all_ones_ptxt.size(); i++){
-    all_ones_ptxt[i] = poly;
+  for (int i = 0; i < in_degree; i++)
+    all_one_slot.push_back(1);
+  for (int i = 0; i < all_ones_ptxt.size(); i++)
+  {
+    rmfe_operator.encode(all_ones_ptxt, all_one_slot, i);
   }
   helib::Ctxt all_ones_ctxt(public_key);
   public_key.Encrypt(all_ones_ctxt, all_ones_ptxt);
 
   helib::Ptxt<helib::BGV> all_zeros_ptxt(context);
   vector<long> all_zero_slot;
-  for (int i = 0; i < one_packing; i++) all_zero_slot.push_back(0);
-  vector<long> all_zero_coeff = lagrange_interpolation(all_zero_slot, p);
-  for (long i = 0; i < one_packing; i++) SetCoeff(poly, i, all_zero_coeff[i]);
-  for (int i = 0; i < all_zeros_ptxt.size(); i++){
-    all_zeros_ptxt[i] = poly;
+  for (int i = 0; i < in_degree; i++)
+    all_zero_slot.push_back(0);
+  for (int i = 0; i < all_zeros_ptxt.size(); i++)
+  {
+    rmfe_operator.encode(all_zeros_ptxt, all_zero_slot, i);
   }
+
+
+  vector<long> all_zero_slot_after_decode(in_degree, 0);
+  rmfe_operator.decode(all_zero_slot_after_decode, all_zeros_ptxt, 0);
+
+  cout << "All zero after decoding: ";
+  for (long xx: all_zero_slot_after_decode) cout << xx << " ";
+  cout << "\n";
+
+  rmfe_operator.decode(all_zero_slot_after_decode, all_ones_ptxt, 0);
+
+  cout << "All one after decoding: ";
+  for (long xx: all_zero_slot_after_decode) cout << xx << " ";
+  cout << "\n";
 
   ////////////////////////
 
   helib::Ctxt bit_sum(public_key);
 
-  for (int bit = 0; bit < d; bit++){
+  for (int bit = 0; bit < d; bit++)
+  {
     cout << "XNORing one plaintext with one ciphertext in bit " << bit << "...\n";
     TIME(
-      dummy_ptxt = sender_plaintexts[bit];
-      dummy_ptxt += dummy_ptxt;
-      all_ones_ptxt *= (long) (p-1);
-      dummy_ptxt += all_ones_ptxt;
-      dummy_ctxt = receiver_ciphertexts[bit];
-      rmfe_operator.multByConstant(dummy_ctxt, dummy_ptxt);
-      dummy_ptxt = sender_plaintexts[bit];
-      dummy_ptxt *= (long) (p-1);
-      dummy_ptxt += all_ones_ptxt;
-      dummy_ctxt.addConstant(dummy_ptxt);
-      all_ones_ptxt *= (long) (p-1);
-    )
+        dummy_ptxt = sender_plaintexts[bit];
+        dummy_ptxt += dummy_ptxt;
+        all_ones_ptxt *= (long)(p - 1);
+        dummy_ptxt += all_ones_ptxt;
+        dummy_ctxt = receiver_ciphertexts[bit];
+        rmfe_operator.multByConstant(dummy_ctxt, dummy_ptxt);
+        dummy_ptxt = sender_plaintexts[bit];
+        dummy_ptxt *= (long)(p - 1);
+        dummy_ptxt += all_ones_ptxt;
+        dummy_ctxt.addConstant(dummy_ptxt);
+        all_ones_ptxt *= (long)(p - 1);)
 
-    if (bit == 0) bit_sum = dummy_ctxt;
-    else bit_sum.addCtxt(dummy_ctxt);
+    if (bit == 0)
+      bit_sum = dummy_ctxt;
+    else
+      bit_sum.addCtxt(dummy_ctxt);
   }
 
   vector<helib::Ctxt> small_powers;
@@ -308,17 +280,19 @@ int main(int argc, char* argv[])
   small_powers.push_back(all_ones_ctxt);
   cout << "Adding power 1\n";
   small_powers.push_back(bit_sum);
-  for (int i = 2; i < 5; i++){
+  for (int i = 2; i < 5; i++)
+  {
     small_powers.push_back(small_powers[i / 2]);
-    cout << "Taking powers " << i << "\n"; 
+    cout << "Taking powers " << i << "\n";
     TIME(rmfe_operator.multByCtxt(small_powers[i], small_powers[i - i / 2]));
   }
 
   big_powers.push_back(all_ones_ctxt);
   big_powers.push_back(small_powers[4]);
-  for (int i = 2; i < 5; i++){
+  for (int i = 2; i < 5; i++)
+  {
     big_powers.push_back(big_powers[i / 2]);
-    cout << "Taking big powers " << i*4 << "\n";
+    cout << "Taking big powers " << i * 4 << "\n";
     TIME(rmfe_operator.multByCtxt(big_powers[i], big_powers[i - i / 2]));
   }
 

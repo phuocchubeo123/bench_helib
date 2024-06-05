@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DHELIB_BOOT_THREADS -DHELIB_THREADS
 
-CXX_INCLUDES = -I/home/ubuntu/benchmark/utils -isystem /home/ubuntu/helib_install/helib_pack/include
+CXX_INCLUDES = -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include
 
 CXX_FLAGS = 
 

@@ -168,6 +168,30 @@ find_params/fast:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/find_params.dir/build.make bin/CMakeFiles/find_params.dir/build
 .PHONY : find_params/fast
 
+fimd/fimd.o: fimd/fimd.cpp.o
+.PHONY : fimd/fimd.o
+
+# target to build an object file
+fimd/fimd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fimd.dir/build.make CMakeFiles/fimd.dir/fimd/fimd.cpp.o
+.PHONY : fimd/fimd.cpp.o
+
+fimd/fimd.i: fimd/fimd.cpp.i
+.PHONY : fimd/fimd.i
+
+# target to preprocess a source file
+fimd/fimd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fimd.dir/build.make CMakeFiles/fimd.dir/fimd/fimd.cpp.i
+.PHONY : fimd/fimd.cpp.i
+
+fimd/fimd.s: fimd/fimd.cpp.s
+.PHONY : fimd/fimd.s
+
+# target to generate assembly for a file
+fimd/fimd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fimd.dir/build.make CMakeFiles/fimd.dir/fimd/fimd.cpp.s
+.PHONY : fimd/fimd.cpp.s
+
 utils/common.o: utils/common.cpp.o
 .PHONY : utils/common.o
 
@@ -228,6 +252,9 @@ help:
 	@echo "... dataslot"
 	@echo "... fimd"
 	@echo "... find_params"
+	@echo "... fimd/fimd.o"
+	@echo "... fimd/fimd.i"
+	@echo "... fimd/fimd.s"
 	@echo "... utils/common.o"
 	@echo "... utils/common.i"
 	@echo "... utils/common.s"
