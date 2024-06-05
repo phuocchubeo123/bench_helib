@@ -8,3 +8,5 @@ libfimd.a
 **/MakeFile
 .vscode/
 bin/*
+CMakeCache.txt
+MakeFile
