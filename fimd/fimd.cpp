@@ -55,10 +55,6 @@ void FIMD::encode(helib::Ptxt<helib::BGV> &ptxt, vector<long> values, long index
     NTL::ZZX poly = ptxt[index].getData();
     NTL::clear(poly);
     vector<long> corresponding_field_element = lagrange_interpolation(values);
-    cout << "The polynomial after Lagrange interpolation is: ";
-    for (long xx : corresponding_field_element)
-        cout << xx << " ";
-    cout << "\n";
 
     for (long j = 0; j < corresponding_field_element.size(); j++) {
         NTL::SetCoeff(poly, j, corresponding_field_element[j]);
@@ -84,6 +80,11 @@ void FIMD::decode(vector<long> &values, helib::Ptxt<helib::BGV> ptxt, long index
     for (long i = 0; i <= poly_deg; i++) {
         NTL::conv(poly_long[i], NTL::coeff(poly, i)); // convert ZZ to long
     }
+
+    cout << "Poly long with degree " << poly_deg << ": ";
+    for (long xx : poly_long)
+        cout << xx << " ";
+    cout << "\n";
 
     for (long j = 0; j < evaluation_points.size(); j++) {
         values[j] = 0;
@@ -128,6 +129,43 @@ void FIMD::q_linearize(helib::Ctxt &ctxt)
             ctxt = small_tot;
         else
             ctxt.addCtxt(small_tot);
+    }
+}
+
+void FIMD::q_linearize(helib::Ptxt<helib::BGV> &ptxt)
+{
+    long deg = q_linearized_coeff.size();
+    long sqrt_deg = ceil(sqrt(deg));
+
+    vector<helib::Ptxt<helib::BGV>> small_frob;
+    small_frob.push_back(ptxt);
+    for (int i = 1; i < sqrt_deg; i++) {
+        small_frob.push_back(small_frob[i - 1]);
+        small_frob[i].power(p);
+    }
+
+    for (long j = 0; j <= sqrt_deg; j++) {
+        if (j * sqrt_deg >= out_degree)
+            continue;
+        helib::Ptxt<helib::BGV> small_tot = small_frob[0];
+        for (int i = 0; i < sqrt_deg; i++) {
+            if (j * sqrt_deg + i >= out_degree)
+                continue;
+            if (i == 0) {
+                small_tot *= q_linearized_coeff[j * sqrt_deg + i];
+            } else {
+                helib::Ptxt<helib::BGV> dummy_ptxt = small_frob[i];
+                dummy_ptxt *= q_linearized_coeff[j * sqrt_deg + i];
+                small_tot += dummy_ptxt;
+            }
+        }
+
+        for (int i = 0; i < j * sqrt_deg; i++)
+            small_tot.power(p);
+        if (j == 0)
+            ptxt = small_tot;
+        else
+            ptxt += small_tot;
     }
 }
 

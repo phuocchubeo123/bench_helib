@@ -390,3 +390,120 @@
 [ 03:05:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
 [ 03:05:11 ] WARNING: KS-noise-ratio=3.149429
 [ 03:05:11 ] WARNING: KS-noise-ratio=3.391769
+[ 07:21:39 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 07:21:40 ] WARNING: KS-noise-ratio=3.177306
+[ 07:21:40 ] WARNING: KS-noise-ratio=3.033249
+[ 07:28:56 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 07:29:25 ] WARNING: KS-noise-ratio=2.801247
+[ 07:29:25 ] WARNING: KS-noise-ratio=3.383963
+[ 07:30:44 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 07:30:46 ] WARNING: KS-noise-ratio=3.011010
+[ 07:30:46 ] WARNING: KS-noise-ratio=3.336193
+[ 07:41:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 07:41:23 ] WARNING: KS-noise-ratio=2.875201
+[ 07:51:39 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 07:51:40 ] WARNING: KS-noise-ratio=2.782661
+[ 09:05:40 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:05:41 ] WARNING: KS-noise-ratio=2.906288
+[ 09:09:02 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:09:02 ] WARNING: KS-noise-ratio=3.060762
+[ 09:10:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:10:12 ] WARNING: KS-noise-ratio=3.566486
+[ 09:11:46 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:11:47 ] WARNING: KS-noise-ratio=2.552420
+[ 09:12:31 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:12:32 ] WARNING: KS-noise-ratio=3.458791
+[ 09:13:38 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:13:39 ] WARNING: KS-noise-ratio=3.193022
+[ 09:13:39 ] WARNING: KS-noise-ratio=45.076815
+[ 09:13:39 ] WARNING: KS-noise-ratio=36.656312
+[ 09:13:39 ] WARNING: KS-noise-ratio=1.260088
+[ 09:13:39 ] WARNING: KS-noise-ratio=45.871046
+[ 09:13:39 ] WARNING: KS-noise-ratio=52.184639
+[ 09:13:39 ] WARNING: KS-noise-ratio=58.667626
+[ 09:13:39 ] WARNING: KS-noise-ratio=37.943669
+[ 09:13:39 ] WARNING: KS-noise-ratio=1.035406
+[ 09:13:40 ] WARNING: KS-noise-ratio=52.074482
+[ 09:13:40 ] WARNING: KS-noise-ratio=43.874127
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.160082
+[ 09:13:40 ] WARNING: KS-noise-ratio=41.661645
+[ 09:13:40 ] WARNING: KS-noise-ratio=47.846206
+[ 09:13:40 ] WARNING: KS-noise-ratio=46.323884
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.162860
+[ 09:13:40 ] WARNING: KS-noise-ratio=47.174894
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.010397
+[ 09:13:40 ] WARNING: KS-noise-ratio=53.962375
+[ 09:13:40 ] WARNING: KS-noise-ratio=38.917257
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.258768
+[ 09:13:40 ] WARNING: KS-noise-ratio=48.594627
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.037560
+[ 09:13:40 ] WARNING: KS-noise-ratio=54.936878
+[ 09:13:40 ] WARNING: KS-noise-ratio=44.751054
+[ 09:13:40 ] WARNING: KS-noise-ratio=44.462507
+[ 09:13:40 ] WARNING: KS-noise-ratio=1.128000
+[ 09:13:41 ] WARNING: Ctxt::bringToSet called with capacity=-12.403300, likely decryption error
+[ 09:13:41 ] WARNING: Ctxt::bringToSet called with capacity=-12.403300, likely decryption error
+[ 09:13:41 ] WARNING: Ctxt::bringToSet called with capacity=-12.403300, likely decryption error
+[ 09:15:09 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:15:10 ] WARNING: KS-noise-ratio=40.403427
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.038128
+[ 09:15:10 ] WARNING: KS-noise-ratio=40.957212
+[ 09:15:10 ] WARNING: KS-noise-ratio=44.579392
+[ 09:15:10 ] WARNING: KS-noise-ratio=44.663309
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.162505
+[ 09:15:10 ] WARNING: KS-noise-ratio=48.062319
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.108371
+[ 09:15:10 ] WARNING: KS-noise-ratio=38.885836
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.066037
+[ 09:15:10 ] WARNING: KS-noise-ratio=43.914159
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.047674
+[ 09:15:10 ] WARNING: KS-noise-ratio=47.140038
+[ 09:15:10 ] WARNING: KS-noise-ratio=1.032266
+[ 09:15:10 ] WARNING: KS-noise-ratio=40.835528
+[ 09:15:11 ] WARNING: KS-noise-ratio=50.176792
+[ 09:15:11 ] WARNING: KS-noise-ratio=47.735516
+[ 09:15:11 ] WARNING: KS-noise-ratio=45.994452
+[ 09:15:11 ] WARNING: KS-noise-ratio=1.058579
+[ 09:15:11 ] WARNING: KS-noise-ratio=46.263219
+[ 09:15:11 ] WARNING: KS-noise-ratio=1.025117
+[ 09:15:11 ] WARNING: KS-noise-ratio=48.419209
+[ 09:15:11 ] WARNING: KS-noise-ratio=1.037216
+[ 09:15:11 ] WARNING: KS-noise-ratio=45.589059
+[ 09:15:11 ] WARNING: KS-noise-ratio=1.137369
+[ 09:15:11 ] WARNING: KS-noise-ratio=46.609532
+[ 09:15:11 ] WARNING: KS-noise-ratio=47.575564
+[ 09:15:11 ] WARNING: KS-noise-ratio=42.444353
+[ 09:15:11 ] WARNING: KS-noise-ratio=1.002265
+[ 09:15:12 ] WARNING: Ctxt::bringToSet called with capacity=-12.630928, likely decryption error
+[ 09:15:12 ] WARNING: Ctxt::bringToSet called with capacity=-12.630928, likely decryption error
+[ 09:15:12 ] WARNING: Ctxt::bringToSet called with capacity=-12.630928, likely decryption error
+[ 09:16:41 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 09:16:41 ] WARNING: KS-noise-ratio=56.903779
+[ 09:16:41 ] WARNING: KS-noise-ratio=39.862731
+[ 09:16:42 ] WARNING: KS-noise-ratio=42.959587
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.067845
+[ 09:16:42 ] WARNING: KS-noise-ratio=41.614035
+[ 09:16:42 ] WARNING: KS-noise-ratio=41.403132
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.021534
+[ 09:16:42 ] WARNING: KS-noise-ratio=38.962587
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.156383
+[ 09:16:42 ] WARNING: KS-noise-ratio=46.429418
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.008233
+[ 09:16:42 ] WARNING: KS-noise-ratio=42.825715
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.038722
+[ 09:16:42 ] WARNING: KS-noise-ratio=36.822880
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.210823
+[ 09:16:42 ] WARNING: KS-noise-ratio=47.675356
+[ 09:16:42 ] WARNING: KS-noise-ratio=48.572775
+[ 09:16:42 ] WARNING: KS-noise-ratio=44.929275
+[ 09:16:42 ] WARNING: KS-noise-ratio=45.325691
+[ 09:16:42 ] WARNING: KS-noise-ratio=1.007676
+[ 09:16:42 ] WARNING: KS-noise-ratio=48.196004
+[ 09:16:43 ] WARNING: KS-noise-ratio=43.973017
+[ 09:16:43 ] WARNING: KS-noise-ratio=1.150839
+[ 09:16:43 ] WARNING: KS-noise-ratio=45.055044
+[ 09:16:43 ] WARNING: KS-noise-ratio=46.062454
+[ 09:16:43 ] WARNING: KS-noise-ratio=54.483127
+[ 09:16:43 ] WARNING: Ctxt::bringToSet called with capacity=-12.195698, likely decryption error
+[ 09:16:43 ] WARNING: Ctxt::bringToSet called with capacity=-12.195698, likely decryption error
+[ 09:16:43 ] WARNING: Ctxt::bringToSet called with capacity=-12.195698, likely decryption error

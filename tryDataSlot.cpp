@@ -224,29 +224,21 @@ int main(int argc, char *argv[])
     rmfe_operator.encode(dummy_ptxt, dummy_values, 0);
     cout << "The current plaintext of dummy_ptxt is: " << dummy_ptxt[0].getData() << "\n";
 
-    for (int i = 0; i < dummy_ptxt.size(); i++) {
-        cout << "The irreducible factor used in plaintext " << i << " is: " << dummy_ptxt[i].getG() << "\n";
-    }
+    dummy_ptxt.power(2);
+    cout << "The current plaintext after power 2 without recoding is: " << dummy_ptxt[0].getData() << "\n";
 
-    helib::Ptxt<helib::BGV> dummy_ptxt2 = dummy_ptxt;
-    dummy_ptxt2.power(3);
-    cout << "The plaintext of dummy_ptxt after raise power " << p << " is: " << dummy_ptxt2[0].getData() << "\n";
+    rmfe_operator.q_linearize(dummy_ptxt);
+    cout << "The current plaintext after power 2 and recoding is: " << dummy_ptxt[0].getData() << "\n";
 
-    public_key.Encrypt(dummy_ctxt, dummy_ptxt);
-    dummy_ctxt.power(3);
-    secret_key.Decrypt(dummy_ptxt, dummy_ctxt);
-    cout << "The plaintext of dummy_ctxt after Automorph is: " << dummy_ptxt[0].getData() << "\n";
+    cout << "The values packed should be: ";
+    for (long xx : dummy_values)
+        cout << modPow(xx, 2, p) << " ";
+    cout << "\n";
 
-    // Just testing some simple FIMD
-    rmfe_operator.multByCtxt(all_ones_ctxt, all_ones_ctxt);
-    secret_key.Decrypt(dummy_ptxt, all_ones_ctxt);
-    cout << "An example of plaintext slot after multiplying: " << dummy_ptxt[0] << "\n";
-    vector<long> plaintext_values;
-    rmfe_operator.decode(plaintext_values, dummy_ptxt, 0);
-    cout << "After decoding, we get:\n";
-    for (long xx : plaintext_values) {
+    rmfe_operator.decode(dummy_values, dummy_ptxt, 0);
+    cout << "The values packed are: ";
+    for (long xx : dummy_values)
         cout << xx << " ";
-    }
     cout << "\n";
 
     ////////////////////////

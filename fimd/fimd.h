@@ -15,6 +15,7 @@ public:
     void decode(std::vector<long> &values, helib::Ptxt<helib::BGV> ptxt, long index);
 
     void q_linearize(helib::Ctxt &ctxt);
+    void q_linearize(helib::Ptxt<helib::BGV> &ptxt);
     void multByConstant(helib::Ctxt &ctxt, helib::Ptxt<helib::BGV> ptxt);
     void multByCtxt(helib::Ctxt &ctxt, helib::Ctxt other_ctxt);
 
