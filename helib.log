@@ -693,3 +693,365 @@
 [ 09:50:40 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
 [ 09:50:40 ] WARNING: Ctxt::bringToSet called with capacity=-25.356559, likely decryption error
 [ 09:50:40 ] WARNING: Ctxt::bringToSet called with capacity=-25.356559, likely decryption error
+[ 14:30:15 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:30:40 ] WARNING: KS-noise-ratio=107.757900
+[ 14:30:40 ] WARNING: KS-noise-ratio=1.045546
+[ 14:30:40 ] WARNING: KS-noise-ratio=118.039055
+[ 14:30:41 ] WARNING: KS-noise-ratio=106.408985
+[ 14:30:41 ] WARNING: KS-noise-ratio=98.296320
+[ 14:30:42 ] WARNING: KS-noise-ratio=1.117013
+[ 14:30:42 ] WARNING: KS-noise-ratio=102.259248
+[ 14:30:42 ] WARNING: KS-noise-ratio=1.079991
+[ 14:30:43 ] WARNING: KS-noise-ratio=99.702700
+[ 14:30:43 ] WARNING: KS-noise-ratio=82.453083
+[ 14:30:43 ] WARNING: KS-noise-ratio=1.168687
+[ 14:30:44 ] WARNING: KS-noise-ratio=98.494052
+[ 14:30:44 ] WARNING: KS-noise-ratio=1.100335
+[ 14:30:45 ] WARNING: KS-noise-ratio=119.561550
+[ 14:30:45 ] WARNING: KS-noise-ratio=89.933707
+[ 14:30:45 ] WARNING: KS-noise-ratio=1.006565
+[ 14:30:46 ] WARNING: KS-noise-ratio=108.620230
+[ 14:30:46 ] WARNING: KS-noise-ratio=1.095537
+[ 14:30:46 ] WARNING: KS-noise-ratio=104.152127
+[ 14:30:47 ] WARNING: KS-noise-ratio=93.397256
+[ 14:30:48 ] WARNING: KS-noise-ratio=98.454369
+[ 14:30:48 ] WARNING: KS-noise-ratio=1.016206
+[ 14:30:48 ] WARNING: KS-noise-ratio=102.643248
+[ 14:30:48 ] WARNING: KS-noise-ratio=1.095349
+[ 14:30:49 ] WARNING: KS-noise-ratio=92.090606
+[ 14:30:49 ] WARNING: KS-noise-ratio=1.016897
+[ 14:30:49 ] WARNING: KS-noise-ratio=99.995626
+[ 14:30:50 ] WARNING: KS-noise-ratio=1.137278
+[ 14:30:50 ] WARNING: KS-noise-ratio=105.061519
+[ 14:30:53 ] WARNING: Ctxt::bringToSet called with capacity=-5.739796, likely decryption error
+[ 14:30:53 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:30:53 ] WARNING: Ctxt::bringToSet called with capacity=-23.951208, likely decryption error
+[ 14:30:54 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:30:54 ] WARNING: Ctxt::bringToSet called with capacity=-23.951208, likely decryption error
+[ 14:30:54 ] WARNING: Ctxt::bringToSet called with capacity=-23.951208, likely decryption error
+[ 14:35:19 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:35:23 ] WARNING: KS-noise-ratio=39.612049
+[ 14:35:23 ] WARNING: KS-noise-ratio=1.219547
+[ 14:35:23 ] WARNING: KS-noise-ratio=38.291696
+[ 14:35:23 ] WARNING: KS-noise-ratio=1.079429
+[ 14:35:23 ] WARNING: KS-noise-ratio=43.789614
+[ 14:35:23 ] WARNING: KS-noise-ratio=1.072209
+[ 14:35:23 ] WARNING: KS-noise-ratio=44.059349
+[ 14:35:24 ] WARNING: KS-noise-ratio=43.770482
+[ 14:35:24 ] WARNING: KS-noise-ratio=1.116311
+[ 14:35:24 ] WARNING: KS-noise-ratio=54.071710
+[ 14:35:24 ] WARNING: KS-noise-ratio=48.267292
+[ 14:35:24 ] WARNING: KS-noise-ratio=48.641025
+[ 14:35:24 ] WARNING: KS-noise-ratio=1.071922
+[ 14:35:24 ] WARNING: KS-noise-ratio=48.544606
+[ 14:35:24 ] WARNING: KS-noise-ratio=1.030183
+[ 14:35:24 ] WARNING: KS-noise-ratio=38.729231
+[ 14:35:24 ] WARNING: KS-noise-ratio=1.064184
+[ 14:35:25 ] WARNING: KS-noise-ratio=55.989211
+[ 14:35:25 ] WARNING: KS-noise-ratio=43.640133
+[ 14:35:25 ] WARNING: KS-noise-ratio=1.060391
+[ 14:35:25 ] WARNING: KS-noise-ratio=42.798596
+[ 14:35:25 ] WARNING: KS-noise-ratio=51.288910
+[ 14:35:25 ] WARNING: KS-noise-ratio=46.303061
+[ 14:35:25 ] WARNING: KS-noise-ratio=41.692358
+[ 14:35:26 ] WARNING: KS-noise-ratio=39.859400
+[ 14:35:26 ] WARNING: KS-noise-ratio=1.151048
+[ 14:35:26 ] WARNING: KS-noise-ratio=54.403570
+[ 14:35:26 ] WARNING: Ctxt::bringToSet called with capacity=-3.288897, likely decryption error
+[ 14:35:27 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:35:27 ] WARNING: Ctxt::bringToSet called with capacity=-21.722176, likely decryption error
+[ 14:35:27 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:35:27 ] WARNING: Ctxt::bringToSet called with capacity=-21.722176, likely decryption error
+[ 14:35:27 ] WARNING: Ctxt::bringToSet called with capacity=-21.722176, likely decryption error
+[ 14:36:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:36:14 ] WARNING: KS-noise-ratio=41.830928
+[ 14:36:14 ] WARNING: KS-noise-ratio=1.096563
+[ 14:36:14 ] WARNING: KS-noise-ratio=37.004411
+[ 14:36:14 ] WARNING: KS-noise-ratio=1.056448
+[ 14:36:14 ] WARNING: KS-noise-ratio=45.752830
+[ 14:36:14 ] WARNING: KS-noise-ratio=47.762723
+[ 14:36:14 ] WARNING: KS-noise-ratio=49.034541
+[ 14:36:14 ] WARNING: KS-noise-ratio=1.133724
+[ 14:36:15 ] WARNING: KS-noise-ratio=41.795481
+[ 14:36:15 ] WARNING: KS-noise-ratio=1.315628
+[ 14:36:15 ] WARNING: KS-noise-ratio=44.326888
+[ 14:36:15 ] WARNING: KS-noise-ratio=45.477683
+[ 14:36:15 ] WARNING: KS-noise-ratio=1.047039
+[ 14:36:15 ] WARNING: KS-noise-ratio=43.265349
+[ 14:36:15 ] WARNING: KS-noise-ratio=47.550285
+[ 14:36:15 ] WARNING: KS-noise-ratio=1.030597
+[ 14:36:15 ] WARNING: KS-noise-ratio=49.806785
+[ 14:36:15 ] WARNING: KS-noise-ratio=46.247776
+[ 14:36:15 ] WARNING: KS-noise-ratio=1.059794
+[ 14:36:15 ] WARNING: KS-noise-ratio=49.649828
+[ 14:36:15 ] WARNING: KS-noise-ratio=1.068787
+[ 14:36:15 ] WARNING: KS-noise-ratio=43.980181
+[ 14:36:15 ] WARNING: KS-noise-ratio=51.364768
+[ 14:36:15 ] WARNING: KS-noise-ratio=44.706466
+[ 14:36:15 ] WARNING: KS-noise-ratio=51.373532
+[ 14:36:16 ] WARNING: KS-noise-ratio=46.571269
+[ 14:36:16 ] WARNING: Ctxt::bringToSet called with capacity=-12.632784, likely decryption error
+[ 14:36:16 ] WARNING: Ctxt::bringToSet called with capacity=-12.632784, likely decryption error
+[ 14:36:16 ] WARNING: Ctxt::bringToSet called with capacity=-12.632784, likely decryption error
+[ 14:42:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:42:16 ] WARNING: KS-noise-ratio=42.078433
+[ 14:42:16 ] WARNING: KS-noise-ratio=1.351175
+[ 14:42:16 ] WARNING: KS-noise-ratio=39.642850
+[ 14:42:17 ] WARNING: KS-noise-ratio=44.840180
+[ 14:42:17 ] WARNING: KS-noise-ratio=1.105630
+[ 14:42:17 ] WARNING: KS-noise-ratio=45.801785
+[ 14:42:17 ] WARNING: KS-noise-ratio=51.262764
+[ 14:42:17 ] WARNING: KS-noise-ratio=45.462397
+[ 14:42:17 ] WARNING: KS-noise-ratio=44.416571
+[ 14:42:17 ] WARNING: KS-noise-ratio=1.070230
+[ 14:42:17 ] WARNING: KS-noise-ratio=44.171739
+[ 14:42:17 ] WARNING: KS-noise-ratio=1.026700
+[ 14:42:17 ] WARNING: KS-noise-ratio=40.915657
+[ 14:42:17 ] WARNING: KS-noise-ratio=48.032521
+[ 14:42:17 ] WARNING: KS-noise-ratio=45.858221
+[ 14:42:17 ] WARNING: KS-noise-ratio=43.219039
+[ 14:42:17 ] WARNING: KS-noise-ratio=45.903221
+[ 14:42:17 ] WARNING: KS-noise-ratio=46.910958
+[ 14:42:18 ] WARNING: KS-noise-ratio=49.158616
+[ 14:42:18 ] WARNING: KS-noise-ratio=44.388851
+[ 14:42:18 ] WARNING: KS-noise-ratio=45.982318
+[ 14:42:18 ] WARNING: KS-noise-ratio=49.783063
+[ 14:42:18 ] WARNING: Ctxt::bringToSet called with capacity=-12.456287, likely decryption error
+[ 14:42:18 ] WARNING: Ctxt::bringToSet called with capacity=-12.456287, likely decryption error
+[ 14:42:18 ] WARNING: Ctxt::bringToSet called with capacity=-12.456287, likely decryption error
+[ 14:42:18 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:42:18 ] WARNING: Ctxt::bringToSet called with capacity=-95.755103, likely decryption error
+[ 14:43:29 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:43:29 ] WARNING: KS-noise-ratio=43.699470
+[ 14:43:29 ] WARNING: KS-noise-ratio=41.479817
+[ 14:43:29 ] WARNING: KS-noise-ratio=45.383822
+[ 14:43:29 ] WARNING: KS-noise-ratio=1.039377
+[ 14:43:30 ] WARNING: KS-noise-ratio=40.743500
+[ 14:43:30 ] WARNING: KS-noise-ratio=1.006551
+[ 14:43:30 ] WARNING: KS-noise-ratio=47.361744
+[ 14:43:30 ] WARNING: KS-noise-ratio=1.028515
+[ 14:43:30 ] WARNING: KS-noise-ratio=41.484562
+[ 14:43:30 ] WARNING: KS-noise-ratio=44.873466
+[ 14:43:30 ] WARNING: KS-noise-ratio=51.357682
+[ 14:43:30 ] WARNING: KS-noise-ratio=35.381379
+[ 14:43:30 ] WARNING: KS-noise-ratio=53.517768
+[ 14:43:30 ] WARNING: KS-noise-ratio=1.147946
+[ 14:43:30 ] WARNING: KS-noise-ratio=46.057217
+[ 14:43:30 ] WARNING: KS-noise-ratio=43.084881
+[ 14:43:30 ] WARNING: KS-noise-ratio=1.048870
+[ 14:43:30 ] WARNING: KS-noise-ratio=46.609688
+[ 14:43:30 ] WARNING: KS-noise-ratio=51.520586
+[ 14:43:30 ] WARNING: KS-noise-ratio=48.784827
+[ 14:43:31 ] WARNING: KS-noise-ratio=49.189401
+[ 14:43:31 ] WARNING: KS-noise-ratio=51.188706
+[ 14:43:31 ] WARNING: KS-noise-ratio=51.285645
+[ 14:43:31 ] WARNING: Ctxt::bringToSet called with capacity=-12.243855, likely decryption error
+[ 14:43:31 ] WARNING: Ctxt::bringToSet called with capacity=-12.243855, likely decryption error
+[ 14:43:31 ] WARNING: Ctxt::bringToSet called with capacity=-12.243855, likely decryption error
+[ 14:43:31 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:43:31 ] WARNING: Ctxt::bringToSet called with capacity=-95.330238, likely decryption error
+[ 14:44:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:44:50 ] WARNING: KS-noise-ratio=48.446268
+[ 14:44:50 ] WARNING: KS-noise-ratio=40.077262
+[ 14:44:50 ] WARNING: KS-noise-ratio=1.064380
+[ 14:44:50 ] WARNING: KS-noise-ratio=45.496309
+[ 14:44:50 ] WARNING: KS-noise-ratio=1.123952
+[ 14:44:50 ] WARNING: KS-noise-ratio=51.079526
+[ 14:44:50 ] WARNING: KS-noise-ratio=53.056732
+[ 14:44:50 ] WARNING: KS-noise-ratio=40.199585
+[ 14:44:50 ] WARNING: KS-noise-ratio=40.881850
+[ 14:44:50 ] WARNING: KS-noise-ratio=1.080511
+[ 14:44:50 ] WARNING: KS-noise-ratio=47.231611
+[ 14:44:50 ] WARNING: KS-noise-ratio=1.105806
+[ 14:44:50 ] WARNING: KS-noise-ratio=32.233314
+[ 14:44:50 ] WARNING: KS-noise-ratio=1.151378
+[ 14:44:51 ] WARNING: KS-noise-ratio=49.097331
+[ 14:44:51 ] WARNING: KS-noise-ratio=49.045436
+[ 14:44:51 ] WARNING: KS-noise-ratio=48.119308
+[ 14:44:51 ] WARNING: KS-noise-ratio=45.083917
+[ 14:44:51 ] WARNING: KS-noise-ratio=39.577364
+[ 14:44:51 ] WARNING: KS-noise-ratio=1.166209
+[ 14:44:51 ] WARNING: KS-noise-ratio=44.503053
+[ 14:44:51 ] WARNING: KS-noise-ratio=1.144638
+[ 14:44:51 ] WARNING: KS-noise-ratio=43.866634
+[ 14:44:51 ] WARNING: KS-noise-ratio=47.654323
+[ 14:44:51 ] WARNING: KS-noise-ratio=53.964967
+[ 14:44:52 ] WARNING: Ctxt::bringToSet called with capacity=-12.277763, likely decryption error
+[ 14:44:52 ] WARNING: Ctxt::bringToSet called with capacity=-12.277763, likely decryption error
+[ 14:44:52 ] WARNING: Ctxt::bringToSet called with capacity=-12.277763, likely decryption error
+[ 14:44:52 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:44:52 ] WARNING: Ctxt::bringToSet called with capacity=-95.398054, likely decryption error
+[ 14:55:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:56:02 ] WARNING: KS-noise-ratio=114.623145
+[ 14:56:03 ] WARNING: KS-noise-ratio=111.933588
+[ 14:56:03 ] WARNING: KS-noise-ratio=1.097358
+[ 14:56:03 ] WARNING: KS-noise-ratio=133.367647
+[ 14:56:03 ] WARNING: KS-noise-ratio=91.134228
+[ 14:56:03 ] WARNING: KS-noise-ratio=1.001965
+[ 14:56:04 ] WARNING: KS-noise-ratio=113.013510
+[ 14:56:04 ] WARNING: KS-noise-ratio=96.701325
+[ 14:56:04 ] WARNING: KS-noise-ratio=1.152181
+[ 14:56:04 ] WARNING: KS-noise-ratio=111.653006
+[ 14:56:04 ] WARNING: KS-noise-ratio=1.006668
+[ 14:56:05 ] WARNING: KS-noise-ratio=96.434404
+[ 14:56:05 ] WARNING: KS-noise-ratio=1.044826
+[ 14:56:05 ] WARNING: KS-noise-ratio=120.622425
+[ 14:56:05 ] WARNING: KS-noise-ratio=1.067485
+[ 14:56:05 ] WARNING: KS-noise-ratio=112.930273
+[ 14:56:05 ] WARNING: KS-noise-ratio=1.197670
+[ 14:56:06 ] WARNING: KS-noise-ratio=106.063073
+[ 14:56:06 ] WARNING: KS-noise-ratio=112.614400
+[ 14:56:06 ] WARNING: KS-noise-ratio=1.000673
+[ 14:56:06 ] WARNING: KS-noise-ratio=105.354324
+[ 14:56:07 ] WARNING: KS-noise-ratio=77.146180
+[ 14:56:07 ] WARNING: KS-noise-ratio=1.052510
+[ 14:56:07 ] WARNING: KS-noise-ratio=128.396135
+[ 14:56:07 ] WARNING: KS-noise-ratio=108.026912
+[ 14:56:08 ] WARNING: KS-noise-ratio=123.623000
+[ 14:56:08 ] WARNING: KS-noise-ratio=105.852232
+[ 14:56:09 ] WARNING: Ctxt::bringToSet called with capacity=-0.838265, likely decryption error
+[ 14:56:10 ] WARNING: Ctxt::bringToSet called with capacity=-17.850997, likely decryption error
+[ 14:56:10 ] WARNING: Ctxt::bringToSet called with capacity=-17.850997, likely decryption error
+[ 14:56:10 ] WARNING: Ctxt::bringToSet called with capacity=-17.850997, likely decryption error
+[ 14:56:11 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:56:11 ] WARNING: Ctxt::bringToSet called with capacity=-106.547616, likely decryption error
+[ 14:56:48 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 14:56:53 ] WARNING: KS-noise-ratio=198.701808
+[ 14:56:54 ] WARNING: KS-noise-ratio=227.967437
+[ 14:56:54 ] WARNING: KS-noise-ratio=217.148524
+[ 14:56:54 ] WARNING: KS-noise-ratio=173.422240
+[ 14:56:54 ] WARNING: KS-noise-ratio=1.001378
+[ 14:56:55 ] WARNING: KS-noise-ratio=216.547078
+[ 14:56:55 ] WARNING: KS-noise-ratio=197.366862
+[ 14:56:55 ] WARNING: KS-noise-ratio=1.009460
+[ 14:56:55 ] WARNING: KS-noise-ratio=204.894456
+[ 14:56:55 ] WARNING: KS-noise-ratio=1.074596
+[ 14:56:56 ] WARNING: KS-noise-ratio=193.617872
+[ 14:56:56 ] WARNING: KS-noise-ratio=1.119053
+[ 14:56:56 ] WARNING: KS-noise-ratio=201.049632
+[ 14:56:56 ] WARNING: KS-noise-ratio=236.298897
+[ 14:56:56 ] WARNING: KS-noise-ratio=214.557360
+[ 14:56:57 ] WARNING: KS-noise-ratio=202.465726
+[ 14:56:57 ] WARNING: KS-noise-ratio=193.056613
+[ 14:56:57 ] WARNING: KS-noise-ratio=226.315641
+[ 14:56:58 ] WARNING: KS-noise-ratio=193.346464
+[ 14:56:58 ] WARNING: KS-noise-ratio=222.447206
+[ 14:56:58 ] WARNING: KS-noise-ratio=189.487289
+[ 14:56:58 ] WARNING: KS-noise-ratio=1.021163
+[ 14:56:59 ] WARNING: KS-noise-ratio=172.257977
+[ 14:57:00 ] WARNING: Ctxt::bringToSet called with capacity=-9.086653, likely decryption error
+[ 14:57:00 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:57:00 ] WARNING: Ctxt::bringToSet called with capacity=-27.188993, likely decryption error
+[ 14:57:00 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:57:00 ] WARNING: Ctxt::bringToSet called with capacity=-27.188993, likely decryption error
+[ 14:57:00 ] WARNING: Ctxt::bringToSet called with capacity=-27.188993, likely decryption error
+[ 14:57:01 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 14:57:01 ] WARNING: Ctxt::bringToSet called with capacity=-126.313214, likely decryption error
+[ 15:00:23 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:00:29 ] WARNING: KS-noise-ratio=221.350639
+[ 15:00:29 ] WARNING: KS-noise-ratio=195.886235
+[ 15:00:29 ] WARNING: KS-noise-ratio=1.038091
+[ 15:00:30 ] WARNING: KS-noise-ratio=246.712017
+[ 15:00:30 ] WARNING: KS-noise-ratio=195.248185
+[ 15:00:30 ] WARNING: KS-noise-ratio=198.867108
+[ 15:00:31 ] WARNING: KS-noise-ratio=211.898781
+[ 15:00:31 ] WARNING: KS-noise-ratio=201.667357
+[ 15:00:31 ] WARNING: KS-noise-ratio=1.010138
+[ 15:00:31 ] WARNING: KS-noise-ratio=174.722198
+[ 15:00:32 ] WARNING: KS-noise-ratio=182.741346
+[ 15:00:32 ] WARNING: KS-noise-ratio=210.866257
+[ 15:00:32 ] WARNING: KS-noise-ratio=1.118223
+[ 15:00:32 ] WARNING: KS-noise-ratio=220.084828
+[ 15:00:32 ] WARNING: KS-noise-ratio=1.180919
+[ 15:00:33 ] WARNING: KS-noise-ratio=222.327530
+[ 15:00:33 ] WARNING: KS-noise-ratio=193.637037
+[ 15:00:33 ] WARNING: KS-noise-ratio=209.052309
+[ 15:00:33 ] WARNING: KS-noise-ratio=1.083854
+[ 15:00:33 ] WARNING: KS-noise-ratio=185.315273
+[ 15:00:33 ] WARNING: KS-noise-ratio=1.139767
+[ 15:00:34 ] WARNING: KS-noise-ratio=233.694538
+[ 15:00:34 ] WARNING: KS-noise-ratio=194.872279
+[ 15:00:34 ] WARNING: KS-noise-ratio=1.116064
+[ 15:00:34 ] WARNING: KS-noise-ratio=186.309175
+[ 15:00:36 ] WARNING: Ctxt::bringToSet called with capacity=-9.311838, likely decryption error
+[ 15:00:36 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:00:36 ] WARNING: Ctxt::bringToSet called with capacity=-27.414178, likely decryption error
+[ 15:00:36 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:00:36 ] WARNING: Ctxt::bringToSet called with capacity=-27.414178, likely decryption error
+[ 15:00:36 ] WARNING: Ctxt::bringToSet called with capacity=-27.414178, likely decryption error
+[ 15:00:37 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:00:37 ] WARNING: Ctxt::bringToSet called with capacity=-126.763584, likely decryption error
+[ 15:20:40 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:21:22 ] WARNING: KS-noise-ratio=187.558947
+[ 15:21:22 ] WARNING: KS-noise-ratio=1.069795
+[ 15:21:23 ] WARNING: KS-noise-ratio=207.380463
+[ 15:21:24 ] WARNING: KS-noise-ratio=188.923769
+[ 15:21:24 ] WARNING: KS-noise-ratio=1.009949
+[ 15:21:25 ] WARNING: KS-noise-ratio=216.603582
+[ 15:21:25 ] WARNING: KS-noise-ratio=1.067898
+[ 15:21:26 ] WARNING: KS-noise-ratio=199.428459
+[ 15:21:27 ] WARNING: KS-noise-ratio=191.471455
+[ 15:21:28 ] WARNING: KS-noise-ratio=189.135022
+[ 15:21:29 ] WARNING: KS-noise-ratio=167.996504
+[ 15:21:29 ] WARNING: KS-noise-ratio=1.066248
+[ 15:21:30 ] WARNING: KS-noise-ratio=161.227084
+[ 15:21:31 ] WARNING: KS-noise-ratio=210.671332
+[ 15:21:32 ] WARNING: KS-noise-ratio=205.491936
+[ 15:21:33 ] WARNING: KS-noise-ratio=177.193526
+[ 15:21:33 ] WARNING: KS-noise-ratio=1.177778
+[ 15:21:34 ] WARNING: KS-noise-ratio=177.500553
+[ 15:21:34 ] WARNING: KS-noise-ratio=1.049602
+[ 15:21:35 ] WARNING: KS-noise-ratio=200.222174
+[ 15:21:36 ] WARNING: KS-noise-ratio=226.644096
+[ 15:21:37 ] WARNING: KS-noise-ratio=202.032505
+[ 15:21:37 ] WARNING: KS-noise-ratio=1.005612
+[ 15:21:38 ] WARNING: KS-noise-ratio=196.938787
+[ 15:21:39 ] WARNING: KS-noise-ratio=161.722912
+[ 15:21:39 ] WARNING: KS-noise-ratio=1.278955
+[ 15:21:40 ] WARNING: KS-noise-ratio=13.261865
+[ 15:21:40 ] WARNING: KS-noise-ratio=1.004678
+[ 15:21:42 ] WARNING: Ctxt::bringToSet called with capacity=-10.080110, likely decryption error
+[ 15:21:42 ] WARNING: Ctxt::bringToSet called with capacity=-10.080110, likely decryption error
+[ 15:21:43 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:21:43 ] WARNING: Ctxt::bringToSet called with capacity=-10.080110, likely decryption error
+[ 15:21:43 ] WARNING: Ctxt::bringToSet called with capacity=-94.179307, likely decryption error
+[ 15:21:43 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:21:43 ] WARNING: Ctxt::bringToSet called with capacity=-94.179307, likely decryption error
+[ 15:21:43 ] WARNING: Ctxt::bringToSet called with capacity=-94.179307, likely decryption error
+[ 15:21:46 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:21:46 ] WARNING: Ctxt::bringToSet called with capacity=-10.165728, likely decryption error
+[ 15:21:46 ] WARNING: Ctxt::bringToSet called with capacity=-242.191505, likely decryption error
+[ 15:24:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:25:14 ] WARNING: KS-noise-ratio=10.483138
+[ 15:25:18 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:25:18 ] WARNING: Ctxt::bringToSet called with capacity=-47.090790, likely decryption error
+[ 15:25:18 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:25:18 ] WARNING: Ctxt::bringToSet called with capacity=-47.090790, likely decryption error
+[ 15:25:18 ] WARNING: Ctxt::bringToSet called with capacity=-47.090790, likely decryption error
+[ 15:25:18 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:25:18 ] WARNING: Ctxt::bringToSet called with capacity=-148.014469, likely decryption error
+[ 15:26:32 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 15:27:01 ] WARNING: KS-noise-ratio=10.602375
+[ 15:27:05 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:27:05 ] WARNING: Ctxt::bringToSet called with capacity=-47.485700, likely decryption error
+[ 15:27:05 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:27:05 ] WARNING: Ctxt::bringToSet called with capacity=-47.485700, likely decryption error
+[ 15:27:05 ] WARNING: Ctxt::bringToSet called with capacity=-47.485700, likely decryption error
+[ 15:27:05 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:27:05 ] WARNING: Ctxt::bringToSet called with capacity=-148.804289, likely decryption error
+[ 15:29:47 ] WARNING: KS-noise-ratio=22.361187
+[ 15:29:48 ] WARNING: Ctxt::bringToSet called with capacity=-7.705708, likely decryption error
+[ 15:29:49 ] WARNING: Ctxt::bringToSet called with capacity=-7.705708, likely decryption error
+[ 15:29:49 ] WARNING: Ctxt::bringToSet called with capacity=-7.705708, likely decryption error
+[ 15:29:49 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:29:49 ] WARNING: Ctxt::bringToSet called with capacity=-91.010106, likely decryption error
+[ 15:29:49 ] WARNING: Ctxt::bringToSet called with capacity=-91.010106, likely decryption error
+[ 15:29:50 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-91.010106, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-257.618902, likely decryption error
+[ 15:29:50 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-257.618902, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-257.618902, likely decryption error
+[ 15:29:50 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-49.131397, likely decryption error
+[ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-571.220797, likely decryption error

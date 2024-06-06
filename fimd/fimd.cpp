@@ -96,9 +96,9 @@ void FIMD::decode(vector<long> &values, helib::Ptxt<helib::BGV> ptxt, long index
     }
 }
 
-void FIMD::q_linearize(helib::Ctxt &ctxt)
+void FIMD::q_linearize(helib::Ctxt &ctxt, long level)
 {
-    long deg = q_linearized_coeff.size();
+    long deg = q_linearized_coeff[level].size();
     long sqrt_deg = ceil(sqrt(deg));
 
     vector<helib::Ctxt> small_frob;
@@ -109,17 +109,17 @@ void FIMD::q_linearize(helib::Ctxt &ctxt)
     }
 
     for (long j = 0; j <= sqrt_deg; j++) {
-        if (j * sqrt_deg >= out_degree)
+        if (j * sqrt_deg >= deg)
             continue;
         helib::Ctxt small_tot = small_frob[0];
         for (int i = 0; i < sqrt_deg; i++) {
-            if (j * sqrt_deg + i >= out_degree)
+            if (j * sqrt_deg + i >= deg)
                 continue;
             if (i == 0) {
-                small_tot.multByConstant(q_linearized_coeff[j * sqrt_deg + i]);
+                small_tot.multByConstant(q_linearized_coeff[level][j * sqrt_deg + i]);
             } else {
                 helib::Ctxt dummy_ctxt = small_frob[i];
-                dummy_ctxt.multByConstant(q_linearized_coeff[j * sqrt_deg + i]);
+                dummy_ctxt.multByConstant(q_linearized_coeff[level][j * sqrt_deg + i]);
                 small_tot.addCtxt(dummy_ctxt);
             }
         }
@@ -132,9 +132,9 @@ void FIMD::q_linearize(helib::Ctxt &ctxt)
     }
 }
 
-void FIMD::q_linearize(helib::Ptxt<helib::BGV> &ptxt)
+void FIMD::q_linearize(helib::Ptxt<helib::BGV> &ptxt, long level)
 {
-    long deg = q_linearized_coeff.size();
+    long deg = q_linearized_coeff[level].size();
     long sqrt_deg = ceil(sqrt(deg));
 
     vector<helib::Ptxt<helib::BGV>> small_frob;
@@ -145,17 +145,17 @@ void FIMD::q_linearize(helib::Ptxt<helib::BGV> &ptxt)
     }
 
     for (long j = 0; j <= sqrt_deg; j++) {
-        if (j * sqrt_deg >= out_degree)
+        if (j * sqrt_deg >= deg)
             continue;
         helib::Ptxt<helib::BGV> small_tot = small_frob[0];
         for (int i = 0; i < sqrt_deg; i++) {
-            if (j * sqrt_deg + i >= out_degree)
+            if (j * sqrt_deg + i >= deg)
                 continue;
             if (i == 0) {
-                small_tot *= q_linearized_coeff[j * sqrt_deg + i];
+                small_tot *= q_linearized_coeff[level][j * sqrt_deg + i];
             } else {
                 helib::Ptxt<helib::BGV> dummy_ptxt = small_frob[i];
-                dummy_ptxt *= q_linearized_coeff[j * sqrt_deg + i];
+                dummy_ptxt *= q_linearized_coeff[level][j * sqrt_deg + i];
                 small_tot += dummy_ptxt;
             }
         }
@@ -172,13 +172,11 @@ void FIMD::q_linearize(helib::Ptxt<helib::BGV> &ptxt)
 void FIMD::multByConstant(helib::Ctxt &ctxt, helib::Ptxt<helib::BGV> ptxt)
 {
     ctxt.multByConstant(ptxt);
-    cout << "Performing q-linearization:\n";
-    TIME(q_linearize(ctxt));
+    TIME(q_linearize(ctxt, 1));
 }
 
 void FIMD::multByCtxt(helib::Ctxt &ctxt, helib::Ctxt other_ctxt)
 {
     ctxt.multiplyBy(other_ctxt);
-    cout << "Performing q-linearization:\n";
-    TIME(q_linearize(ctxt));
+    TIME(q_linearize(ctxt, 1));
 }

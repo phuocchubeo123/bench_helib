@@ -4,7 +4,7 @@
 
 class FIMD {
 public:
-    FIMD(long new_p, long new_in_degree, long new_out_degree) : p(new_p), in_degree(new_in_degree), out_degree(new_out_degree)
+    FIMD(long new_p, long new_in_degree) : p(new_p), in_degree(new_in_degree)
     {}
 
     void set_evaluation_points(std::vector<long> x);
@@ -14,12 +14,12 @@ public:
     void encode(helib::Ptxt<helib::BGV> &ptxt, std::vector<long> values, long index);
     void decode(std::vector<long> &values, helib::Ptxt<helib::BGV> ptxt, long index);
 
-    void q_linearize(helib::Ctxt &ctxt);
-    void q_linearize(helib::Ptxt<helib::BGV> &ptxt);
+    void q_linearize(helib::Ctxt &ctxt, long level);
+    void q_linearize(helib::Ptxt<helib::BGV> &ptxt, long level);
     void multByConstant(helib::Ctxt &ctxt, helib::Ptxt<helib::BGV> ptxt);
     void multByCtxt(helib::Ctxt &ctxt, helib::Ctxt other_ctxt);
 
-    std::vector<helib::Ptxt<helib::BGV>> q_linearized_coeff;
+    std::vector<std::vector<helib::Ptxt<helib::BGV>>> q_linearized_coeff;
 
 private:
     long p;

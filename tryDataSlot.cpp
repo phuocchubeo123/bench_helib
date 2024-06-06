@@ -76,8 +76,7 @@ int main(int argc, char *argv[])
     cout << "Degree in one slot: " << one_slot << "\n";
 
     // In degree and out degree for RMFE
-    long in_degree = 16;
-    long out_degree = 31;
+    long in_degree = 22;
 
     // The number of bits in an element
     long d = 18;
@@ -127,11 +126,12 @@ int main(int argc, char *argv[])
     Read the q-linearized polynomial coefficients from the params file
     */
     ifstream param;
-    param.open("params/257_8192_16.txt");
+    param.open("params/257_4096_8.txt");
 
-    FIMD rmfe_operator(p, in_degree, out_degree);
+    FIMD rmfe_operator(p, in_degree);
 
-    for (int i = 0; i < out_degree; i++) {
+    vector<helib::Ptxt<helib::BGV>> q_linearized_coeff1;
+    for (int i = 0; i < 2 * in_degree - 1; i++) {
         for (long j = 0; j < one_slot; j++) {
             long coeff;
             param >> coeff;
@@ -140,12 +140,23 @@ int main(int argc, char *argv[])
 
         for (int j = 0; j < nslots; j++)
             dummy_ptxt[j] = poly;
-        rmfe_operator.q_linearized_coeff.push_back(dummy_ptxt);
+        q_linearized_coeff1.push_back(dummy_ptxt);
     }
+    rmfe_operator.q_linearized_coeff.push_back(q_linearized_coeff1);
 
-    for (int i = 0; i < out_degree; i++) {
-        cout << rmfe_operator.q_linearized_coeff[i][0] << "\n";
+    vector<helib::Ptxt<helib::BGV>> q_linearized_coeff2;
+    for (int i = 0; i < 3 * in_degree - 2; i++) {
+        for (long j = 0; j < one_slot; j++) {
+            long coeff;
+            param >> coeff;
+            SetCoeff(poly, j, coeff);
+        }
+
+        for (int j = 0; j < nslots; j++)
+            dummy_ptxt[j] = poly;
+        q_linearized_coeff2.push_back(dummy_ptxt);
     }
+    rmfe_operator.q_linearized_coeff.push_back(q_linearized_coeff2);
 
     /*
     Find evaluation points
@@ -215,44 +226,16 @@ int main(int argc, char *argv[])
         rmfe_operator.encode(all_zeros_ptxt, all_zero_slot, i);
     }
 
-    vector<long> dummy_values;
-    for (long i = 0; i < in_degree; i++) {
-        dummy_values.push_back(modPow(i, 7, p));
-    }
-    cout << "The values to encode is: ";
-    for (long xx : dummy_values)
-        cout << xx << " ";
-    cout << "\n";
-
-    rmfe_operator.encode(dummy_ptxt, dummy_values, 0);
-    cout << "The current plaintext of dummy_ptxt is: " << dummy_ptxt[0].getData() << "\n";
-
-    dummy_ptxt.power(2);
-    cout << "The current plaintext after power 2 without recoding is: " << dummy_ptxt[0].getData() << "\n";
-
-    rmfe_operator.q_linearize(dummy_ptxt);
-    cout << "The current plaintext after power 2 and recoding is: " << dummy_ptxt[0].getData() << "\n";
-
-    cout << "The values packed should be: ";
-    for (long xx : dummy_values)
-        cout << modPow(xx, 2, p) << " ";
-    cout << "\n";
-
-    rmfe_operator.decode(dummy_values, dummy_ptxt, 0);
-    cout << "The values packed are: ";
-    for (long xx : dummy_values)
-        cout << xx << " ";
-    cout << "\n";
-
     ////////////////////////
 
     helib::Ctxt bit_sum(public_key);
 
-    for (int bit = 0; bit < d; bit++) {
+    cout << "Time to do all XNORs is:\n";
+    TIME(for (int bit = 0; bit < d; bit++) {
         cout << "XNORing one plaintext with one ciphertext in bit " << bit << "...\n";
         TIME(dummy_ptxt = sender_plaintexts[bit]; dummy_ptxt += dummy_ptxt; all_ones_ptxt *= (long)(p - 1); dummy_ptxt += all_ones_ptxt;
              dummy_ctxt = receiver_ciphertexts[bit];
-             rmfe_operator.multByConstant(dummy_ctxt, dummy_ptxt);
+             dummy_ctxt.multByConstant(dummy_ptxt);
              dummy_ptxt = sender_plaintexts[bit];
              dummy_ptxt *= (long)(p - 1);
              dummy_ptxt += all_ones_ptxt;
@@ -263,29 +246,56 @@ int main(int argc, char *argv[])
             bit_sum = dummy_ctxt;
         else
             bit_sum.addCtxt(dummy_ctxt);
-    }
+    } rmfe_operator.q_linearize(bit_sum, 0);)
 
-    vector<helib::Ctxt> small_powers;
-    vector<helib::Ctxt> big_powers;
-    cout << "Adding power 0\n";
-    small_powers.push_back(all_ones_ctxt);
-    cout << "Adding power 1\n";
-    small_powers.push_back(bit_sum);
-    for (int i = 2; i < 5; i++) {
-        small_powers.push_back(small_powers[i / 2]);
-        cout << "Taking powers " << i << "\n";
-        TIME(rmfe_operator.multByCtxt(small_powers[i], small_powers[i - i / 2]));
-    }
+    cout << "\n";
 
-    big_powers.push_back(all_ones_ctxt);
-    big_powers.push_back(small_powers[4]);
-    for (int i = 2; i < 5; i++) {
-        big_powers.push_back(big_powers[i / 2]);
-        cout << "Taking big powers " << i * 4 << "\n";
-        TIME(rmfe_operator.multByCtxt(big_powers[i], big_powers[i - i / 2]));
-    }
+    TIME(
+        vector<helib::Ctxt> small_powers; vector<helib::Ctxt> big_powers; cout << "Adding power 0\n"; small_powers.push_back(all_ones_ctxt);
+        cout << "Adding power 1\n";
+        small_powers.push_back(bit_sum);
+        for (int i = 2; i < 5; i++) {
+            small_powers.push_back(small_powers[i / 2]);
+            cout << "Taking small power  " << i << "\n";
+            TIME(small_powers[i].multiplyBy(small_powers[i - i / 2]));
+            cout << "q-linearize small power " << i << "\n";
+            TIME(rmfe_operator.q_linearize(small_powers[i], 0));
+        }
 
-    vector<long> bit_compare_coefficients = generate_bit_compare_polynomial(d, p);
+        big_powers.push_back(all_ones_ctxt);
+        big_powers.push_back(small_powers[4]);
+        for (int i = 2; i < 5; i++) {
+            big_powers.push_back(big_powers[i / 2]);
+            cout << "Taking big powers " << i * 4 << "\n";
+            TIME(big_powers[i].multiplyBy(big_powers[i - i / 2]));
+            if (i == 2)
+                rmfe_operator.q_linearize(big_powers[i], 0);
+        }
+
+        vector<long> bit_compare_coefficients = generate_bit_compare_polynomial(d, p);
+
+        helib::Ctxt big_res(public_key);
+        for (int i = 0; i < 5; i++) {
+            helib::Ctxt small_res(public_key);
+            for (int j = 0; j < 4; j++) {
+                if (i * 4 + j > 18)
+                    dummy_ctxt = small_powers[j];
+                dummy_ctxt.multByConstant(bit_compare_coefficients[i * 4 + j]);
+                if (j == 0)
+                    small_res = dummy_ctxt;
+                else
+                    small_res.addCtxt(dummy_ctxt);
+            }
+            TIME(small_res.multiplyBy(big_powers[i]));
+            if (i == 0)
+                big_res = small_res;
+            else
+                big_res.addCtxt(small_res);
+        }
+
+        TIME(rmfe_operator.q_linearize(big_res, 1));
+
+    )
 
     return 0;
 }
