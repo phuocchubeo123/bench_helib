@@ -76,8 +76,8 @@ int main(int argc, char *argv[])
     cout << "Degree in one slot: " << one_slot << "\n";
 
     // In degree and out degree for RMFE
-    long in_degree = 8;
-    long out_degree = 15;
+    long in_degree = 16;
+    long out_degree = 31;
 
     // The number of bits in an element
     long d = 18;
@@ -90,6 +90,10 @@ int main(int argc, char *argv[])
     helib::Ptxt<helib::BGV> dummy_ptxt(context);
     helib::Ctxt dummy_ctxt(public_key);
     NTL::ZZX poly = dummy_ptxt[0].getData();
+
+    for (int i = 0; i < nslots; i++) {
+        cout << "The modulus for plaintext slot " << i << " is: " << dummy_ptxt[i].getG() << "\n";
+    }
 
     ////////////////////////////////////
 
@@ -123,7 +127,7 @@ int main(int argc, char *argv[])
     Read the q-linearized polynomial coefficients from the params file
     */
     ifstream param;
-    param.open("params/257_4096_8.txt");
+    param.open("params/257_8192_16.txt");
 
     FIMD rmfe_operator(p, in_degree, out_degree);
 
@@ -170,7 +174,6 @@ int main(int argc, char *argv[])
             rmfe_operator.encode(dummy_ptxt, bits_to_pack, i);
         }
         public_key.Encrypt(dummy_ctxt, dummy_ptxt);
-        cout << "Done encrypting\n";
         receiver_ciphertexts.push_back(dummy_ctxt);
     })
 

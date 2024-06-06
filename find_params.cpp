@@ -58,7 +58,7 @@ int main()
         cout << i << ": " << is_prime[i] << " " << phi[i] << "\n";
     }
 
-    int POWER_OF_TWO = (1 << 12);
+    int POWER_OF_TWO = (1 << 14);
     int PHI_POWER_OF_TWO = POWER_OF_TWO / 2;
     int desired_batch = PHI_POWER_OF_TWO / 2;
 
@@ -75,7 +75,7 @@ int main()
             for (int j = 1; j < i; j *= 2) {
                 if (curr % i == 1) {
                     int packing = (PHI_POWER_OF_TWO / j) * min(j / 2, p);
-                    if (packing >= desired_batch) {
+                    if (packing >= desired_batch && p % j == 1) {
                         cout << "Found good packing parameter: "
                              << "m = " << i << ", pack = " << packing << ", one slot = " << j << ", no of slots: " << PHI_POWER_OF_TWO / j << "\n";
                         cnt++;
