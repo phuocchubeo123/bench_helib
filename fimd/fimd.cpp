@@ -53,7 +53,13 @@ vector<long> FIMD::lagrange_interpolation(vector<long> f)
 void FIMD::encode(helib::Ptxt<helib::BGV> &ptxt, vector<long> values, long index)
 {
     NTL::ZZX poly = ptxt[index].getData();
+    NTL::clear(poly);
     vector<long> corresponding_field_element = lagrange_interpolation(values);
+    cout << "The polynomial after Lagrange interpolation is: ";
+    for (long xx : corresponding_field_element)
+        cout << xx << " ";
+    cout << "\n";
+
     for (long j = 0; j < corresponding_field_element.size(); j++) {
         NTL::SetCoeff(poly, j, corresponding_field_element[j]);
     }
@@ -92,7 +98,7 @@ void FIMD::decode(vector<long> &values, helib::Ptxt<helib::BGV> ptxt, long index
 void FIMD::q_linearize(helib::Ctxt &ctxt)
 {
     long deg = q_linearized_coeff.size();
-    long sqrt_deg = sqrt(deg);
+    long sqrt_deg = ceil(sqrt(deg));
 
     vector<helib::Ctxt> small_frob;
     small_frob.push_back(ctxt);
@@ -102,9 +108,11 @@ void FIMD::q_linearize(helib::Ctxt &ctxt)
     }
 
     for (long j = 0; j <= sqrt_deg; j++) {
+        if (j * sqrt_deg >= out_degree)
+            continue;
         helib::Ctxt small_tot = small_frob[0];
         for (int i = 0; i < sqrt_deg; i++) {
-            if (j * sqrt_deg + i >= q_linearized_coeff.size())
+            if (j * sqrt_deg + i >= out_degree)
                 continue;
             if (i == 0) {
                 small_tot.multByConstant(q_linearized_coeff[j * sqrt_deg + i]);
@@ -115,7 +123,7 @@ void FIMD::q_linearize(helib::Ctxt &ctxt)
             }
         }
 
-        small_tot.frobeniusAutomorph(j);
+        small_tot.frobeniusAutomorph(j * sqrt_deg);
         if (j == 0)
             ctxt = small_tot;
         else

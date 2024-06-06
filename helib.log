@@ -334,3 +334,59 @@
 [ 10:40:40 ] WARNING: Ctxt::bringToSet called with capacity=-9.546623, likely decryption error
 [ 10:40:40 ] WARNING: Ctxt::bringToSet called with capacity=-9.546623, likely decryption error
 [ 10:40:40 ] WARNING: Ctxt::bringToSet called with capacity=-9.546623, likely decryption error
+[ 02:27:00 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:27:00 ] WARNING: KS-noise-ratio=3.745247
+[ 02:31:37 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:31:37 ] WARNING: KS-noise-ratio=2.742269
+[ 02:32:06 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:32:06 ] WARNING: KS-noise-ratio=2.907406
+[ 02:33:21 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:33:21 ] WARNING: KS-noise-ratio=2.754449
+[ 02:33:45 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:33:45 ] WARNING: KS-noise-ratio=2.959353
+[ 02:33:53 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:33:53 ] WARNING: KS-noise-ratio=3.386262
+[ 02:35:16 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:35:16 ] WARNING: KS-noise-ratio=2.636512
+[ 02:36:15 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:36:15 ] WARNING: KS-noise-ratio=3.192101
+[ 02:36:40 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:36:41 ] WARNING: KS-noise-ratio=2.812441
+[ 02:41:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:41:55 ] WARNING: KS-noise-ratio=376490.166016
+[ 02:44:58 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:44:58 ] WARNING: KS-noise-ratio=381302.983004
+[ 02:44:58 ] WARNING: KS-noise-ratio=2.992931
+[ 02:49:21 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:49:21 ] WARNING: KS-noise-ratio=408474.171477
+[ 02:49:21 ] WARNING: KS-noise-ratio=3.541018
+[ 02:49:54 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:49:54 ] WARNING: KS-noise-ratio=375496.899516
+[ 02:49:54 ] WARNING: KS-noise-ratio=3.148128
+[ 02:52:32 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:52:32 ] WARNING: KS-noise-ratio=399064.146355
+[ 02:52:32 ] WARNING: KS-noise-ratio=3.321176
+[ 02:53:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:53:49 ] WARNING: KS-noise-ratio=374191.579803
+[ 02:53:49 ] WARNING: KS-noise-ratio=2.592319
+[ 02:54:35 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:54:35 ] WARNING: KS-noise-ratio=404141.642317
+[ 02:54:35 ] WARNING: KS-noise-ratio=2.917564
+[ 02:54:51 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:54:52 ] WARNING: KS-noise-ratio=374738.023228
+[ 02:54:52 ] WARNING: KS-noise-ratio=2.933294
+[ 02:58:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:58:49 ] WARNING: KS-noise-ratio=394998.983173
+[ 02:58:49 ] WARNING: KS-noise-ratio=3.212550
+[ 02:59:44 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:59:45 ] WARNING: KS-noise-ratio=388011.039109
+[ 02:59:45 ] WARNING: KS-noise-ratio=2.868345
+[ 03:01:37 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:01:39 ] WARNING: KS-noise-ratio=2.648442
+[ 03:01:39 ] WARNING: KS-noise-ratio=2.915318
+[ 03:02:42 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:02:42 ] WARNING: KS-noise-ratio=2.967335
+[ 03:02:42 ] WARNING: KS-noise-ratio=3.003312
+[ 03:05:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 03:05:11 ] WARNING: KS-noise-ratio=3.149429
+[ 03:05:11 ] WARNING: KS-noise-ratio=3.391769

@@ -73,13 +73,9 @@ long estimateCtxtSize(const helib::Context &context, long offset)
     return size + offset;
 }
 
-// Function to compute the modular inverse of a under modulo p
-// Uses Fermat's little theorem: a^(p-1) ≡ 1 (mod p), hence a^(p-2) ≡ a^(-1) (mod p)
-long modInverse(long a, long p)
+long modPow(long a, long exponent, long p)
 {
     long result = 1;
-    long exponent = p - 2; // Fermat's little theorem exponent
-
     while (exponent > 0) {
         if (exponent % 2 == 1) {
             result = (result * a) % p;
@@ -88,6 +84,13 @@ long modInverse(long a, long p)
         exponent /= 2;
     }
     return result;
+}
+
+// Function to compute the modular inverse of a under modulo p
+// Uses Fermat's little theorem: a^(p-1) ≡ 1 (mod p), hence a^(p-2) ≡ a^(-1) (mod p)
+long modInverse(long a, long p)
+{
+    return modPow(a, p - 2, p);
 }
 
 vector<long> generate_bit_compare_polynomial(long d, long p)

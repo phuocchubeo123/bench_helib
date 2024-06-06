@@ -2,5 +2,6 @@
 #include <vector>
 
 long estimateCtxtSize(const helib::Context &context, long offset);
+long modPow(long a, long po, long p);
 long modInverse(long a, long p);
 std::vector<long> generate_bit_compare_polynomial(long d, long p);

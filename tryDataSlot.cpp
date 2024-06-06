@@ -212,19 +212,41 @@ int main(int argc, char *argv[])
         rmfe_operator.encode(all_zeros_ptxt, all_zero_slot, i);
     }
 
-    vector<long> all_zero_slot_after_decode(in_degree, 0);
-    rmfe_operator.decode(all_zero_slot_after_decode, all_zeros_ptxt, 0);
-
-    cout << "All zero after decoding: ";
-    for (long xx : all_zero_slot_after_decode)
+    vector<long> dummy_values;
+    for (long i = 0; i < in_degree; i++) {
+        dummy_values.push_back(modPow(i, 7, p));
+    }
+    cout << "The values to encode is: ";
+    for (long xx : dummy_values)
         cout << xx << " ";
     cout << "\n";
 
-    rmfe_operator.decode(all_zero_slot_after_decode, all_ones_ptxt, 0);
+    rmfe_operator.encode(dummy_ptxt, dummy_values, 0);
+    cout << "The current plaintext of dummy_ptxt is: " << dummy_ptxt[0].getData() << "\n";
 
-    cout << "All one after decoding: ";
-    for (long xx : all_zero_slot_after_decode)
+    for (int i = 0; i < dummy_ptxt.size(); i++) {
+        cout << "The irreducible factor used in plaintext " << i << " is: " << dummy_ptxt[i].getG() << "\n";
+    }
+
+    helib::Ptxt<helib::BGV> dummy_ptxt2 = dummy_ptxt;
+    dummy_ptxt2.power(3);
+    cout << "The plaintext of dummy_ptxt after raise power " << p << " is: " << dummy_ptxt2[0].getData() << "\n";
+
+    public_key.Encrypt(dummy_ctxt, dummy_ptxt);
+    dummy_ctxt.power(3);
+    secret_key.Decrypt(dummy_ptxt, dummy_ctxt);
+    cout << "The plaintext of dummy_ctxt after Automorph is: " << dummy_ptxt[0].getData() << "\n";
+
+    // Just testing some simple FIMD
+    rmfe_operator.multByCtxt(all_ones_ctxt, all_ones_ctxt);
+    secret_key.Decrypt(dummy_ptxt, all_ones_ctxt);
+    cout << "An example of plaintext slot after multiplying: " << dummy_ptxt[0] << "\n";
+    vector<long> plaintext_values;
+    rmfe_operator.decode(plaintext_values, dummy_ptxt, 0);
+    cout << "After decoding, we get:\n";
+    for (long xx : plaintext_values) {
         cout << xx << " ";
+    }
     cout << "\n";
 
     ////////////////////////
