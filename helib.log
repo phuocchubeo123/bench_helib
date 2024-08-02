@@ -1055,3 +1055,12 @@
 [ 15:29:50 ] WARNING: getSet4Size: no matching IndexSet found, likely decryption error
 [ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-49.131397, likely decryption error
 [ 15:29:50 ] WARNING: Ctxt::bringToSet called with capacity=-571.220797, likely decryption error
+[ 01:56:13 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 01:56:42 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:06:49 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:07:35 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:08:12 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:09:44 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:10:11 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:10:47 ] WARNING: ctxtPrimeSize: non-optimal targetSize
+[ 02:11:30 ] WARNING: ctxtPrimeSize: non-optimal targetSize

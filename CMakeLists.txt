@@ -32,3 +32,4 @@ add_subdirectory(bin)
 
 target_link_libraries(dataslot helib fimd)
 target_link_libraries(bench helib fimd)
+target_link_libraries(change_base helib fimd)

@@ -6,3 +6,6 @@ add_executable(dataslot
 
 add_executable(find_params
     ../find_params.cpp)
+
+add_executable(change_base
+    ../change_base.cpp)

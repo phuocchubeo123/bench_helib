@@ -1,32 +1,44 @@
 [
 {
-  "directory": "/home/ubuntu/benchmark",
-  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/utils/common.cpp.o -c /home/ubuntu/benchmark/utils/common.cpp",
-  "file": "/home/ubuntu/benchmark/utils/common.cpp"
+  "directory": "/home/ubuntu/bench_helib",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/utils/common.cpp.o -c /home/ubuntu/bench_helib/utils/common.cpp",
+  "file": "/home/ubuntu/bench_helib/utils/common.cpp",
+  "output": "CMakeFiles/fimd.dir/utils/common.cpp.o"
 },
 {
-  "directory": "/home/ubuntu/benchmark",
-  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/utils/timeUtil.cpp.o -c /home/ubuntu/benchmark/utils/timeUtil.cpp",
-  "file": "/home/ubuntu/benchmark/utils/timeUtil.cpp"
+  "directory": "/home/ubuntu/bench_helib",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/utils/timeUtil.cpp.o -c /home/ubuntu/bench_helib/utils/timeUtil.cpp",
+  "file": "/home/ubuntu/bench_helib/utils/timeUtil.cpp",
+  "output": "CMakeFiles/fimd.dir/utils/timeUtil.cpp.o"
 },
 {
-  "directory": "/home/ubuntu/benchmark",
-  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/fimd/fimd.cpp.o -c /home/ubuntu/benchmark/fimd/fimd.cpp",
-  "file": "/home/ubuntu/benchmark/fimd/fimd.cpp"
+  "directory": "/home/ubuntu/bench_helib",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/fimd.dir/fimd/fimd.cpp.o -c /home/ubuntu/bench_helib/fimd/fimd.cpp",
+  "file": "/home/ubuntu/bench_helib/fimd/fimd.cpp",
+  "output": "CMakeFiles/fimd.dir/fimd/fimd.cpp.o"
 },
 {
-  "directory": "/home/ubuntu/benchmark/bin",
-  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/bench.dir/__/bench.cpp.o -c /home/ubuntu/benchmark/bench.cpp",
-  "file": "/home/ubuntu/benchmark/bench.cpp"
+  "directory": "/home/ubuntu/bench_helib/bin",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/bench.dir/__/bench.cpp.o -c /home/ubuntu/bench_helib/bench.cpp",
+  "file": "/home/ubuntu/bench_helib/bench.cpp",
+  "output": "bin/CMakeFiles/bench.dir/__/bench.cpp.o"
 },
 {
-  "directory": "/home/ubuntu/benchmark/bin",
-  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/benchmark/utils -I/home/ubuntu/benchmark/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o -c /home/ubuntu/benchmark/tryDataSlot.cpp",
-  "file": "/home/ubuntu/benchmark/tryDataSlot.cpp"
+  "directory": "/home/ubuntu/bench_helib/bin",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o -c /home/ubuntu/bench_helib/tryDataSlot.cpp",
+  "file": "/home/ubuntu/bench_helib/tryDataSlot.cpp",
+  "output": "bin/CMakeFiles/dataslot.dir/__/tryDataSlot.cpp.o"
 },
 {
-  "directory": "/home/ubuntu/benchmark/bin",
-  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/find_params.dir/__/find_params.cpp.o -c /home/ubuntu/benchmark/find_params.cpp",
-  "file": "/home/ubuntu/benchmark/find_params.cpp"
+  "directory": "/home/ubuntu/bench_helib/bin",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/find_params.dir/__/find_params.cpp.o -c /home/ubuntu/bench_helib/find_params.cpp",
+  "file": "/home/ubuntu/bench_helib/find_params.cpp",
+  "output": "bin/CMakeFiles/find_params.dir/__/find_params.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/bench_helib/bin",
+  "command": "/usr/bin/c++ -DHELIB_BOOT_THREADS -DHELIB_THREADS -I/home/ubuntu/bench_helib/utils -I/home/ubuntu/bench_helib/fimd -isystem /home/ubuntu/helib_install/helib_pack/include -std=gnu++17 -o CMakeFiles/change_base.dir/__/change_base.cpp.o -c /home/ubuntu/bench_helib/change_base.cpp",
+  "file": "/home/ubuntu/bench_helib/change_base.cpp",
+  "output": "bin/CMakeFiles/change_base.dir/__/change_base.cpp.o"
 }
 ]
